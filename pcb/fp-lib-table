@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name A33_FP)(type KiCad)(uri ${KIPRJMOD}/A33/eec.pretty)(options "")(descr ""))
+  (lib (name AS4C512M16D3L)(type KiCad)(uri ${KIPRJMOD}/AS4C512M16D3L/eec.pretty)(options "")(descr ""))
+  (lib (name TI)(type KiCad)(uri ${KIPRJMOD}/ti/ti.pretty)(options "")(descr ""))
+)
