@@ -994,14 +994,9 @@ Wire Wire Line
 	9450 950  9350 950 
 Wire Wire Line
 	9350 950  9350 850 
-Wire Wire Line
-	9450 2750 8650 2750
-Wire Wire Line
-	8650 2750 8650 2650
 Connection ~ 8650 2350
 Wire Wire Line
 	9450 2650 8650 2650
-Connection ~ 8650 2650
 Wire Wire Line
 	8650 2650 8650 2550
 Wire Wire Line
@@ -1040,6 +1035,23 @@ $EndComp
 Wire Wire Line
 	9300 3050 9300 2950
 Connection ~ 9300 3050
+$Comp
+L power:+3V3 #PWR?
+U 1 1 608815B4
+P 8500 2550
+AR Path="/60A30BFF/608815B4" Ref="#PWR?"  Part="1" 
+AR Path="/608815B4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 2400 50  0001 C CNN
+F 1 "+3V3" H 8515 2723 50  0000 C CNN
+F 2 "" H 8500 2550 50  0001 C CNN
+F 3 "" H 8500 2550 50  0001 C CNN
+	1    8500 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2550 8500 2750
+Wire Wire Line
+	8500 2750 9450 2750
 Wire Bus Line
 	3950 3400 3950 3700
 Wire Bus Line
