@@ -14,19 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:+2V5 #PWR06
-U 1 1 605379DF
-P 5350 5300
-F 0 "#PWR06" H 5350 5150 50  0001 C CNN
-F 1 "+2V5" H 5365 5473 50  0000 C CNN
-F 2 "" H 5350 5300 50  0001 C CNN
-F 3 "" H 5350 5300 50  0001 C CNN
-	1    5350 5300
-	1    0    0    -1  
-$EndComp
-Text Notes 4800 5000 0    50   ~ 0
-3v3 @ 1A. 75uS startup time.\n3v0 @ 1A. 75uS startup time.\n2v5 @ 300mA. 75uS startup time.\n1v35 @ 2A. 900uS startup time.\n1v1 @ 4A. 900uS startup time.
-$Comp
 L power:+5V #PWR019
 U 1 1 6066E626
 P 700 750
@@ -1696,4 +1683,185 @@ Wire Wire Line
 Connection ~ 10350 3200
 Wire Wire Line
 	10350 3200 10700 3200
+$Comp
+L Regulator_Linear:AP131-25 U7
+U 1 1 60A041CF
+P 5250 5750
+F 0 "U7" H 5250 6092 50  0000 C CNN
+F 1 "AP131-25" H 5250 6001 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5250 6075 50  0001 C CNN
+F 3 "http://www.diodes.com/_files/datasheets/AP131.pdf" H 5250 5750 50  0001 C CNN
+	1    5250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60A109D4
+P 5950 5950
+AR Path="/60536DA4/60A109D4" Ref="C?"  Part="1" 
+AR Path="/60A30BFF/60A109D4" Ref="C28"  Part="1" 
+F 0 "C28" H 6000 6050 50  0000 L CNN
+F 1 "10uF" H 6000 5850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 5950 5950 50  0001 C CNN
+F 3 "~" H 5950 5950 50  0001 C CNN
+	1    5950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60A116E2
+P 5600 5950
+AR Path="/60536DA4/60A116E2" Ref="C?"  Part="1" 
+AR Path="/60A30BFF/60A116E2" Ref="C27"  Part="1" 
+F 0 "C27" H 5650 6050 50  0000 L CNN
+F 1 "0.1uF" H 5650 5850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 5600 5950 50  0001 C CNN
+F 3 "~" H 5600 5950 50  0001 C CNN
+	1    5600 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60A11ECD
+P 4550 5850
+AR Path="/60536DA4/60A11ECD" Ref="C?"  Part="1" 
+AR Path="/60A30BFF/60A11ECD" Ref="C26"  Part="1" 
+F 0 "C26" H 4600 5950 50  0000 L CNN
+F 1 "10uF" H 4600 5750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 4550 5850 50  0001 C CNN
+F 3 "~" H 4550 5850 50  0001 C CNN
+	1    4550 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5650 4800 5650
+Wire Wire Line
+	4350 5650 4350 5500
+$Comp
+L power:+3V3 #PWR06
+U 1 1 60A23846
+P 4350 5500
+F 0 "#PWR06" H 4350 5350 50  0001 C CNN
+F 1 "+3V3" H 4365 5673 50  0000 C CNN
+F 2 "" H 4350 5500 50  0001 C CNN
+F 3 "" H 4350 5500 50  0001 C CNN
+	1    4350 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5750 4550 5650
+Connection ~ 4550 5650
+Wire Wire Line
+	4550 5650 4350 5650
+Wire Wire Line
+	5550 5750 5600 5750
+Wire Wire Line
+	5600 5750 5600 5850
+Wire Wire Line
+	5600 6050 5600 6100
+$Comp
+L power:GND #PWR?
+U 1 1 60A54975
+P 5250 6150
+AR Path="/60536DA4/60A54975" Ref="#PWR?"  Part="1" 
+AR Path="/60A54975" Ref="#PWR?"  Part="1" 
+AR Path="/60A30BFF/60A54975" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 5250 5900 50  0001 C CNN
+F 1 "GND" V 5255 6022 50  0001 R CNN
+F 2 "" H 5250 6150 50  0001 C CNN
+F 3 "" H 5250 6150 50  0001 C CNN
+	1    5250 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 6150 5250 6100
+Wire Wire Line
+	5950 5650 5950 5850
+Wire Wire Line
+	5550 5650 5950 5650
+Wire Wire Line
+	5950 6050 5950 6100
+Wire Wire Line
+	5950 6100 5600 6100
+Wire Wire Line
+	4550 6100 4550 5950
+Connection ~ 5250 6100
+Wire Wire Line
+	5250 6100 5250 6050
+Wire Wire Line
+	5250 6100 4550 6100
+Connection ~ 5600 6100
+Wire Wire Line
+	5600 6100 5250 6100
+Wire Wire Line
+	5950 5650 6200 5650
+Wire Wire Line
+	6900 5650 6900 5500
+Connection ~ 5950 5650
+$Comp
+L power:+2V5 #PWR045
+U 1 1 60AD6A4A
+P 6900 5500
+F 0 "#PWR045" H 6900 5350 50  0001 C CNN
+F 1 "+2V5" H 6915 5673 50  0000 C CNN
+F 2 "" H 6900 5500 50  0001 C CNN
+F 3 "" H 6900 5500 50  0001 C CNN
+	1    6900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60AF9B3F
+P 6400 5650
+AR Path="/60536DA4/60AF9B3F" Ref="R?"  Part="1" 
+AR Path="/60AF9B3F" Ref="R?"  Part="1" 
+AR Path="/60A30BFF/60AF9B3F" Ref="R19"  Part="1" 
+F 0 "R19" V 6350 5550 50  0000 C CNN
+F 1 "0R" V 6500 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6400 5650 50  0001 C CNN
+F 3 "~" H 6400 5650 50  0001 C CNN
+	1    6400 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 5650 6600 5650
+$Comp
+L Connector:TestPoint TP17
+U 1 1 60B002CC
+P 6200 5500
+F 0 "TP17" H 6258 5572 50  0000 L CNN
+F 1 "TestPoint" H 6258 5527 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6400 5500 50  0001 C CNN
+F 3 "~" H 6400 5500 50  0001 C CNN
+	1    6200 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5650 6200 5500
+$Comp
+L Connector:TestPoint TP18
+U 1 1 60B002D3
+P 6600 5500
+F 0 "TP18" H 6658 5572 50  0000 L CNN
+F 1 "TestPoint" H 6658 5527 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6800 5500 50  0001 C CNN
+F 3 "~" H 6800 5500 50  0001 C CNN
+	1    6600 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5650 6600 5500
+Connection ~ 6600 5650
+Wire Wire Line
+	6600 5650 6900 5650
+Connection ~ 6200 5650
+Wire Wire Line
+	6200 5650 6300 5650
+Wire Wire Line
+	4950 5750 4800 5750
+Wire Wire Line
+	4800 5750 4800 5650
+Connection ~ 4800 5650
+Wire Wire Line
+	4800 5650 4550 5650
 $EndSCHEMATC

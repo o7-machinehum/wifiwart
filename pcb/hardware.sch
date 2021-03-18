@@ -230,7 +230,7 @@ adr13
 Text Label 2500 3200 2    50   ~ 0
 adr14
 $Sheet
-S 4850 3550 1450 1100
+S 5550 3300 1450 1100
 U 6063BE69
 F0 "gpio" 50
 F1 "gpio.sch" 50
@@ -477,7 +477,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 6200 2650 6200
 $Sheet
-S 4850 2200 1450 1100
+S 2400 6600 1450 500 
 U 60A30BFF
 F0 "a33_power" 50
 F1 "a33_power.sch" 50
@@ -1016,8 +1016,8 @@ L power:+3V3 #PWR?
 U 1 1 608815B4
 P 7650 2900
 AR Path="/60A30BFF/608815B4" Ref="#PWR?"  Part="1" 
-AR Path="/608815B4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7650 2750 50  0001 C CNN
+AR Path="/608815B4" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 7650 2750 50  0001 C CNN
 F 1 "+3V3" H 7665 3073 50  0000 C CNN
 F 2 "" H 7650 2900 50  0001 C CNN
 F 3 "" H 7650 2900 50  0001 C CNN
@@ -1066,6 +1066,8 @@ Wire Bus Line
 	3950 3600 4200 3600
 Wire Wire Line
 	3650 3700 4250 3700
+Text Notes 2450 7050 0    50   ~ 0
+3v3 @ 1A. 75uS startup time.\n3v0 @ 1A. 75uS startup time.\n2v5 @ 300mA. 75uS startup time.\n1v35 @ 2A. 900uS startup time.\n1v1 @ 4A. 900uS startup time.
 Wire Bus Line
 	3950 3400 3950 3600
 Wire Bus Line

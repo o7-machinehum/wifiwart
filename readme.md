@@ -4,8 +4,8 @@ https://www.alibaba.com/product-detail/Taidacent-Thermal-Camera-Smart-Home-Linux
     - Wifi module
 
 # TODO
-- [ ] Wire in the remaining pins on the ram
-- [ ] Find a 2.5V linear regulator and drop in on
+- [x] Wire in the remaining pins on the ram
+- [x] Find a 2.5V linear regulator and drop in on
 - [ ] Figure out the VCC-EFUSE stuff
 - [ ] Figure out the HPVCC stuff
 - [ ] Wire in the SD card
