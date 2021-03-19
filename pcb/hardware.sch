@@ -230,7 +230,7 @@ adr13
 Text Label 2500 3200 2    50   ~ 0
 adr14
 $Sheet
-S 5550 3300 1450 1100
+S 5600 4250 1450 1100
 U 6063BE69
 F0 "gpio" 50
 F1 "gpio.sch" 50
@@ -485,12 +485,12 @@ $EndSheet
 $Comp
 L Connector:Micro_SD_Card_Det_Hirose_DM3AT J1
 U 1 1 6062A02A
-P 5900 5850
-F 0 "J1" H 5850 6667 50  0000 C CNN
-F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 5850 6576 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 7950 6550 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 5900 5950 50  0001 C CNN
-	1    5900 5850
+P 6500 2400
+F 0 "J1" H 6450 3217 50  0000 C CNN
+F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 6450 3126 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 8550 3100 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 6500 2500 50  0001 C CNN
+	1    6500 2400
 	1    0    0    -1  
 $EndComp
 $Comp
