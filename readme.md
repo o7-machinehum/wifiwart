@@ -10,7 +10,9 @@ MPM-15-5
 ## TODO
 - [x] Wire in the remaining pins on the ram
 - [x] Find a 2.5V linear regulator and drop in on
-- [ ] Wire in the SD card
+- [x] Wire in the SD card
+- [ ] Wire out the UART bus
+- [ ] Wire out some GPIO
 - [ ] Figure out the VCC-EFUSE stuff
 - [ ] Figure out the HPVCC stuff
 - [ ] Decoupling capacitors for pretty much everything

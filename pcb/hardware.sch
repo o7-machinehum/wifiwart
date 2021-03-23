@@ -283,19 +283,6 @@ F 3 "~" H 1200 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R?
-U 1 1 607B18B8
-P 1200 1800
-AR Path="/60536DA4/607B18B8" Ref="R?"  Part="1" 
-AR Path="/607B18B8" Ref="R5"  Part="1" 
-F 0 "R5" H 1268 1846 50  0000 L CNN
-F 1 "1k" H 1268 1755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1200 1800 50  0001 C CNN
-F 3 "~" H 1200 1800 50  0001 C CNN
-	1    1200 1800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C?
 U 1 1 607B18BE
 P 1550 1400
@@ -482,17 +469,6 @@ U 60A30BFF
 F0 "a33_power" 50
 F1 "a33_power.sch" 50
 $EndSheet
-$Comp
-L Connector:Micro_SD_Card_Det_Hirose_DM3AT J1
-U 1 1 6062A02A
-P 6500 2400
-F 0 "J1" H 6450 3217 50  0000 C CNN
-F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 6450 3126 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 8550 3100 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 6500 2500 50  0001 C CNN
-	1    6500 2400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Allwinner_A33:A33 U2
 U 2 1 60BD8D67
@@ -1074,4 +1050,17 @@ Wire Bus Line
 	2150 1900 2150 3400
 Wire Bus Line
 	4050 1700 4050 3300
+$Comp
+L Device:R_Small_US R?
+U 1 1 607B18B8
+P 1200 1800
+AR Path="/60536DA4/607B18B8" Ref="R?"  Part="1" 
+AR Path="/607B18B8" Ref="R5"  Part="1" 
+F 0 "R5" H 1268 1846 50  0000 L CNN
+F 1 "1k" H 1268 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1200 1800 50  0001 C CNN
+F 3 "~" H 1200 1800 50  0001 C CNN
+	1    1200 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
