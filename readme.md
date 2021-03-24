@@ -18,3 +18,4 @@ MPM-15-5
 - [ ] Decoupling capacitors for pretty much everything
 - [ ] Create and drop in the Radios 
 - [ ] Figure out a mains to 5V solution
+- [ ] Crystals
