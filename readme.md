@@ -21,5 +21,5 @@ MPM-15-5
     - A33 finished
     - SD card finished
 - [ ] Create and drop in the Radios 
-- [ ] Figure out a mains to 5V solution
+- [x] Figure out a mains to 5V solution
 - [ ] Crystals
