@@ -13,7 +13,8 @@ MPM-15-5
 - [x] Wire in the SD card
 - [ ] Wire out the UART bus
 - [ ] Wire out some GPIO
-- [ ] Figure out the VCC-EFUSE stuff
+- [x] Figure out the VCC-EFUSE stuff
+    - Wired to gnd using 0R
 - [ ] Figure out the HPVCC stuff
 - [ ] Decoupling capacitors for pretty much everything
 - [ ] Create and drop in the Radios 

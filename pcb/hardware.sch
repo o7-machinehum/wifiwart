@@ -961,27 +961,25 @@ Wire Wire Line
 Connection ~ 7800 2800
 Wire Wire Line
 	7800 2800 7800 2700
-Text Notes 8500 2500 0    50   ~ 0
-?
 Wire Wire Line
 	8600 3300 8450 3300
 Wire Wire Line
-	8600 2600 8100 2600
+	8600 2600 8000 2600
 Wire Wire Line
 	7800 2700 7800 2500
 Wire Wire Line
-	8100 2600 8100 2550
+	8000 2600 8000 2550
 $Comp
 L power:+1V1 #PWR?
 U 1 1 60BD8E77
-P 8100 2550
+P 8000 2550
 AR Path="/60A30BFF/60BD8E77" Ref="#PWR?"  Part="1" 
 AR Path="/60BD8E77" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 8100 2400 50  0001 C CNN
-F 1 "+1V1" H 8115 2723 50  0000 C CNN
-F 2 "" H 8100 2550 50  0001 C CNN
-F 3 "" H 8100 2550 50  0001 C CNN
-	1    8100 2550
+F 0 "#PWR05" H 8000 2400 50  0001 C CNN
+F 1 "+1V1" H 8015 2723 50  0000 C CNN
+F 2 "" H 8000 2550 50  0001 C CNN
+F 3 "" H 8000 2550 50  0001 C CNN
+	1    8000 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1044,12 +1042,6 @@ Wire Wire Line
 	3650 3700 4250 3700
 Text Notes 2450 7050 0    50   ~ 0
 3v3 @ 1A. 75uS startup time.\n3v0 @ 1A. 75uS startup time.\n2v5 @ 300mA. 75uS startup time.\n1v35 @ 2A. 900uS startup time.\n1v1 @ 4A. 900uS startup time.
-Wire Bus Line
-	3950 3400 3950 3600
-Wire Bus Line
-	2150 1900 2150 3400
-Wire Bus Line
-	4050 1700 4050 3300
 $Comp
 L Device:R_Small_US R?
 U 1 1 607B18B8
@@ -1063,4 +1055,47 @@ F 3 "~" H 1200 1800 50  0001 C CNN
 	1    1200 1800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 605E80D9
+P 6950 2500
+AR Path="/60536DA4/605E80D9" Ref="R?"  Part="1" 
+AR Path="/605E80D9" Ref="R?"  Part="1" 
+F 0 "R?" H 7018 2546 50  0000 L CNN
+F 1 "0R" H 7018 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6950 2500 50  0001 C CNN
+F 3 "~" H 6950 2500 50  0001 C CNN
+	1    6950 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 2500 8100 2500
+Text Label 8100 2500 0    50   ~ 0
+VCC-EFUSE
+Text Label 7050 2500 0    50   ~ 0
+VCC-EFUSE
+$Comp
+L power:GND #PWR?
+U 1 1 60652B0A
+P 6700 2650
+AR Path="/60536DA4/60652B0A" Ref="#PWR?"  Part="1" 
+AR Path="/60652B0A" Ref="#PWR?"  Part="1" 
+AR Path="/60A30BFF/60652B0A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6700 2400 50  0001 C CNN
+F 1 "GND" V 6705 2522 50  0001 R CNN
+F 2 "" H 6700 2650 50  0001 C CNN
+F 3 "" H 6700 2650 50  0001 C CNN
+	1    6700 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2650 6700 2500
+Wire Wire Line
+	6700 2500 6850 2500
+Wire Bus Line
+	3950 3400 3950 3600
+Wire Bus Line
+	2150 1900 2150 3400
+Wire Bus Line
+	4050 1700 4050 3300
 $EndSCHEMATC
