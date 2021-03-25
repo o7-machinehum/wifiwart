@@ -1864,4 +1864,96 @@ Wire Wire Line
 Connection ~ 4800 5650
 Wire Wire Line
 	4800 5650 4550 5650
+$Comp
+L MPM-15-5:MPM-15-5 U8
+U 1 1 60F3A4A1
+P 1300 6650
+F 0 "U8" H 1800 6915 50  0000 C CNN
+F 1 "MPM-15-5" H 1800 6824 50  0000 C CNN
+F 2 "MEAN_WELL-MPM-15-5-*" H 1300 7050 50  0001 L CNN
+F 3 "https://www.meanwell.com/webapp/product/search.aspx?prod=MPM-15#1" H 1300 7150 50  0001 L CNN
+F 4 "No" H 1300 7250 50  0001 L CNN "automotive"
+F 5 "IC" H 1300 7350 50  0001 L CNN "category"
+F 6 "Integrated Circuits (ICs)" H 1300 7450 50  0001 L CNN "device class L1"
+F 7 "Power Management ICs" H 1300 7550 50  0001 L CNN "device class L2"
+F 8 "unset" H 1300 7650 50  0001 L CNN "device class L3"
+F 9 "AC/DC CONVERTER 5V 15W" H 1300 7750 50  0001 L CNN "digikey description"
+F 10 "1866-5334-ND" H 1300 7850 50  0001 L CNN "digikey part number"
+F 11 "24mm" H 1300 7950 50  0001 L CNN "height"
+F 12 "Yes" H 1300 8050 50  0001 L CNN "lead free"
+F 13 "07bef24d1664adcc" H 1300 8150 50  0001 L CNN "library id"
+F 14 "MEAN WELL" H 1300 8250 50  0001 L CNN "manufacturer"
+F 15 "15W" H 1300 8350 50  0001 L CNN "max power dissipation"
+F 16 "264V" H 1300 8450 50  0001 L CNN "max supply voltage"
+F 17 "80V" H 1300 8550 50  0001 L CNN "min supply voltage"
+F 18 "709-MPM-15-5" H 1300 8650 50  0001 L CNN "mouser part number"
+F 19 "0.3-0.6A" H 1300 8750 50  0001 L CNN "nominal supply current"
+F 20 "1" H 1300 8850 50  0001 L CNN "number of outputs"
+F 21 "3A" H 1300 8950 50  0001 L CNN "output current"
+F 22 "5V" H 1300 9050 50  0001 L CNN "output voltage"
+F 23 "DIP4" H 1300 9150 50  0001 L CNN "package"
+F 24 "Yes" H 1300 9250 50  0001 L CNN "rohs"
+F 25 "+85°C" H 1300 9350 50  0001 L CNN "temperature range high"
+F 26 "-40°C" H 1300 9450 50  0001 L CNN "temperature range low"
+F 27 "MPM-15-5" H 1300 6650 50  0001 C CNN "Part Number"
+	1    1300 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 6650 1200 6650
+Wire Wire Line
+	1400 6750 1200 6750
+Text Label 1200 6650 0    50   ~ 0
+AC_L
+Text Label 1200 6750 0    50   ~ 0
+AC_N
+$Comp
+L power:+5V #PWR070
+U 1 1 60F7B9D6
+P 2700 6550
+F 0 "#PWR070" H 2700 6400 50  0001 C CNN
+F 1 "+5V" H 2715 6723 50  0000 C CNN
+F 2 "" H 2700 6550 50  0001 C CNN
+F 3 "" H 2700 6550 50  0001 C CNN
+	1    2700 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F96CCE
+P 2700 6850
+AR Path="/60536DA4/60F96CCE" Ref="#PWR?"  Part="1" 
+AR Path="/60F96CCE" Ref="#PWR?"  Part="1" 
+AR Path="/60A30BFF/60F96CCE" Ref="#PWR071"  Part="1" 
+F 0 "#PWR071" H 2700 6600 50  0001 C CNN
+F 1 "GND" V 2705 6722 50  0001 R CNN
+F 2 "" H 2700 6850 50  0001 C CNN
+F 3 "" H 2700 6850 50  0001 C CNN
+	1    2700 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6650 2400 6650
+Wire Wire Line
+	2700 6650 2700 6550
+Wire Wire Line
+	2200 6750 2700 6750
+Wire Wire Line
+	2700 6750 2700 6850
+$Comp
+L Connector:TestPoint TP19
+U 1 1 60FBE2BB
+P 2400 6550
+F 0 "TP19" H 2458 6622 50  0000 L CNN
+F 1 "TestPoint" H 2458 6577 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2600 6550 50  0001 C CNN
+F 3 "~" H 2600 6550 50  0001 C CNN
+	1    2400 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 6650 2400 6550
+Connection ~ 2400 6650
+Wire Wire Line
+	2400 6650 2700 6650
 $EndSCHEMATC
