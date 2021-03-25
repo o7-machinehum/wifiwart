@@ -17,6 +17,8 @@ MPM-15-5
     - Wired to gnd using 0R
 - [ ] Figure out the HPVCC stuff
 - [ ] Decoupling capacitors for pretty much everything
+    - Ram finished
+    - A33 finished
 - [ ] Create and drop in the Radios 
 - [ ] Figure out a mains to 5V solution
 - [ ] Crystals
