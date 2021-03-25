@@ -314,4 +314,67 @@ Wire Wire Line
 	2450 2850 2300 2850
 Wire Wire Line
 	1250 1350 1400 1350
+$Comp
+L Device:C_Small C?
+U 1 1 60EE41F9
+P 3600 1300
+AR Path="/60536DA4/60EE41F9" Ref="C?"  Part="1" 
+AR Path="/60EE41F9" Ref="C?"  Part="1" 
+AR Path="/6063BE69/60EE41F9" Ref="C93"  Part="1" 
+F 0 "C93" V 3650 1350 50  0000 L CNN
+F 1 "100nF" V 3550 1350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 3600 1300 50  0001 C CNN
+F 3 "~" H 3600 1300 50  0001 C CNN
+	1    3600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60EE41FF
+P 3800 1300
+AR Path="/60536DA4/60EE41FF" Ref="C?"  Part="1" 
+AR Path="/60EE41FF" Ref="C?"  Part="1" 
+AR Path="/6063BE69/60EE41FF" Ref="C94"  Part="1" 
+F 0 "C94" V 3850 1350 50  0000 L CNN
+F 1 "22uF" V 3750 1350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 3800 1300 50  0001 C CNN
+F 3 "~" H 3800 1300 50  0001 C CNN
+	1    3800 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1200 3600 1050
+Wire Wire Line
+	3600 1050 3800 1050
+Wire Wire Line
+	3800 1200 3800 1050
+Connection ~ 3800 1050
+Wire Wire Line
+	3800 1050 4000 1050
+Wire Wire Line
+	3800 1400 3800 1450
+Wire Wire Line
+	3800 1450 3700 1450
+Wire Wire Line
+	3600 1450 3600 1400
+$Comp
+L power:GND #PWR?
+U 1 1 60EE9AFE
+P 3700 1500
+AR Path="/60536DA4/60EE9AFE" Ref="#PWR?"  Part="1" 
+AR Path="/60EE9AFE" Ref="#PWR?"  Part="1" 
+AR Path="/60A30BFF/60EE9AFE" Ref="#PWR?"  Part="1" 
+AR Path="/6063BE69/60EE9AFE" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 3700 1250 50  0001 C CNN
+F 1 "GND" V 3705 1372 50  0001 R CNN
+F 2 "" H 3700 1500 50  0001 C CNN
+F 3 "" H 3700 1500 50  0001 C CNN
+	1    3700 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1500 3700 1450
+Connection ~ 3700 1450
+Wire Wire Line
+	3700 1450 3600 1450
 $EndSCHEMATC
