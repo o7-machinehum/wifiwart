@@ -23,5 +23,5 @@ MPM-15-5
 - [ ] Create and drop in the Radios 
 - [x] Figure out a mains to 5V solution
 - [x] Crystals
-- [ ] NMI Pin
-- [ ] RESET Pin
+- [x] NMI Pin
+- [x] RESET Pin

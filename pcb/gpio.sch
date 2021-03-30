@@ -648,4 +648,95 @@ F 3 "" H 7500 4900 50  0001 C CNN
 	1    7500 4900
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	8050 5300 7800 5300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 606D2633
+P 7350 5300
+AR Path="/60A30BFF/606D2633" Ref="#PWR?"  Part="1" 
+AR Path="/606D2633" Ref="#PWR?"  Part="1" 
+AR Path="/6063BE69/606D2633" Ref="#PWR075"  Part="1" 
+F 0 "#PWR075" H 7350 5150 50  0001 C CNN
+F 1 "+3V3" V 7450 5350 50  0000 C CNN
+F 2 "" H 7350 5300 50  0001 C CNN
+F 3 "" H 7350 5300 50  0001 C CNN
+	1    7350 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 606E17EE
+P 7700 5300
+AR Path="/60536DA4/606E17EE" Ref="R?"  Part="1" 
+AR Path="/606E17EE" Ref="R?"  Part="1" 
+AR Path="/6063BE69/606E17EE" Ref="R30"  Part="1" 
+F 0 "R30" V 7650 5400 50  0000 L CNN
+F 1 "10k" V 7650 5100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7700 5300 50  0001 C CNN
+F 3 "~" H 7700 5300 50  0001 C CNN
+	1    7700 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 5300 7400 5300
+Wire Wire Line
+	7400 5300 7400 5400
+Wire Wire Line
+	7400 5400 7600 5400
+Connection ~ 7400 5300
+Wire Wire Line
+	7400 5300 7350 5300
+$Comp
+L Device:R_Small_US R?
+U 1 1 606E6005
+P 7700 5400
+AR Path="/60536DA4/606E6005" Ref="R?"  Part="1" 
+AR Path="/606E6005" Ref="R?"  Part="1" 
+AR Path="/6063BE69/606E6005" Ref="R31"  Part="1" 
+F 0 "R31" V 7650 5500 50  0000 L CNN
+F 1 "10M" V 7650 5200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7700 5400 50  0001 C CNN
+F 3 "~" H 7700 5400 50  0001 C CNN
+	1    7700 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 5400 7900 5400
+$Comp
+L Device:C_Small C?
+U 1 1 606FB519
+P 7900 5600
+AR Path="/60536DA4/606FB519" Ref="C?"  Part="1" 
+AR Path="/606FB519" Ref="C?"  Part="1" 
+AR Path="/6063BE69/606FB519" Ref="C100"  Part="1" 
+F 0 "C100" H 7700 5650 50  0000 L CNN
+F 1 "100nF" H 7650 5750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 7900 5600 50  0001 C CNN
+F 3 "~" H 7900 5600 50  0001 C CNN
+	1    7900 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7900 5500 7900 5400
+$Comp
+L power:GND #PWR?
+U 1 1 606FF627
+P 7900 5800
+AR Path="/60536DA4/606FF627" Ref="#PWR?"  Part="1" 
+AR Path="/606FF627" Ref="#PWR?"  Part="1" 
+AR Path="/60A30BFF/606FF627" Ref="#PWR?"  Part="1" 
+AR Path="/6063BE69/606FF627" Ref="#PWR076"  Part="1" 
+F 0 "#PWR076" H 7900 5550 50  0001 C CNN
+F 1 "GND" V 7905 5672 50  0001 R CNN
+F 2 "" H 7900 5800 50  0001 C CNN
+F 3 "" H 7900 5800 50  0001 C CNN
+	1    7900 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 5800 7900 5700
+Connection ~ 7900 5400
+Wire Wire Line
+	7900 5400 8050 5400
 $EndSCHEMATC
