@@ -1,4 +1,4 @@
-19113788103956357
+19116998083201530
 A33_FP
 Allwinner_Technology_Co.,_Ltd.-A33-0
 
@@ -27,6 +27,13 @@ Alliance_Memory-AS4C512M16D3L-12BIN-0-0-IPC_C
 0
 96
 96
+Abracon
+Abracon-ABS05-0-0-MFG
+
+
+0
+2
+2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56237,6 +56244,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MPM-15-5
+MEAN_WELL-MPM-15-5-MFG
+
+
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
