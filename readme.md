@@ -15,7 +15,7 @@ MPM-15-5
 - [ ] Wire out some GPIO
 - [x] Figure out the VCC-EFUSE stuff
     - Wired to gnd using 0R
-- [ ] Figure out the HPVCC stuff
+- [x] Figure out the HPVCC stuff
 - [x] Decoupling capacitors for pretty much everything
     - Ram finished
     - A33 finished
