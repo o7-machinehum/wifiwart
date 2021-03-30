@@ -16,10 +16,12 @@ MPM-15-5
 - [x] Figure out the VCC-EFUSE stuff
     - Wired to gnd using 0R
 - [ ] Figure out the HPVCC stuff
-- [ ] Decoupling capacitors for pretty much everything
+- [x] Decoupling capacitors for pretty much everything
     - Ram finished
     - A33 finished
     - SD card finished
 - [ ] Create and drop in the Radios 
 - [x] Figure out a mains to 5V solution
-- [ ] Crystals
+- [x] Crystals
+- [ ] NMI Pin
+- [ ] RESET Pin

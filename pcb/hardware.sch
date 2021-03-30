@@ -401,11 +401,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 4500 2050 5600
 Wire Wire Line
-	2550 4400 1950 4400
+	2550 4400 2300 4400
 Wire Wire Line
 	1950 4400 1950 5700
 Wire Wire Line
-	2550 4300 1850 4300
+	2550 4300 2300 4300
 Wire Wire Line
 	1850 4300 1850 5800
 Wire Wire Line
@@ -2310,4 +2310,34 @@ Wire Bus Line
 	2150 1900 2150 3400
 Wire Bus Line
 	4050 1700 4050 3300
+$Comp
+L Device:R_Small_US R?
+U 1 1 606E3432
+P 2200 4300
+AR Path="/60536DA4/606E3432" Ref="R?"  Part="1" 
+AR Path="/606E3432" Ref="R27"  Part="1" 
+F 0 "R27" V 2150 4400 50  0000 L CNN
+F 1 "0R" V 2150 4100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2200 4300 50  0001 C CNN
+F 3 "~" H 2200 4300 50  0001 C CNN
+	1    2200 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 4300 1850 4300
+$Comp
+L Device:R_Small_US R?
+U 1 1 606E81AC
+P 2200 4400
+AR Path="/60536DA4/606E81AC" Ref="R?"  Part="1" 
+AR Path="/606E81AC" Ref="R28"  Part="1" 
+F 0 "R28" V 2150 4500 50  0000 L CNN
+F 1 "0R" V 2150 4200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2200 4400 50  0001 C CNN
+F 3 "~" H 2200 4400 50  0001 C CNN
+	1    2200 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 4400 1950 4400
 $EndSCHEMATC

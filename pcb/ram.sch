@@ -1225,13 +1225,13 @@ Wire Wire Line
 	6100 3750 6300 3750
 Wire Wire Line
 	5800 3750 5800 3850
+Connection ~ 5800 3750
+Wire Wire Line
+	5800 3750 5900 3750
 Wire Bus Line
 	1450 3050 1450 3350
 Wire Bus Line
 	1450 1350 1450 2950
 Wire Bus Line
 	3450 1350 3450 2950
-Connection ~ 5800 3750
-Wire Wire Line
-	5800 3750 5900 3750
 $EndSCHEMATC
