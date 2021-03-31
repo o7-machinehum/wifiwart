@@ -20,7 +20,8 @@ MPM-15-5
     - Ram finished
     - A33 finished
     - SD card finished
-- [ ] Create and drop in the Radios 
+- [x] Create and drop in the Radios 
+    - [x] Just use USB radios lol
 - [x] Figure out a mains to 5V solution
 - [x] Crystals
 - [x] NMI Pin
