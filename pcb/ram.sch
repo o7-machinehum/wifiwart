@@ -13,105 +13,103 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Bus Line
-	3450 2950 3550 2950
 Entry Wire Line
-	3350 1250 3450 1350
+	3400 1250 3500 1350
 Wire Wire Line
-	3350 1250 2950 1250
+	3400 1250 3000 1250
 Entry Wire Line
-	3350 1350 3450 1450
+	3400 1350 3500 1450
 Wire Wire Line
-	3350 1350 2950 1350
+	3400 1350 3000 1350
 Entry Wire Line
-	3350 1450 3450 1550
+	3400 1450 3500 1550
 Wire Wire Line
-	3350 1450 2950 1450
+	3400 1450 3000 1450
 Entry Wire Line
-	3350 1550 3450 1650
+	3400 1550 3500 1650
 Wire Wire Line
-	3350 1550 2950 1550
+	3400 1550 3000 1550
 Entry Wire Line
-	3350 1650 3450 1750
+	3400 1650 3500 1750
 Wire Wire Line
-	3350 1650 2950 1650
+	3400 1650 3000 1650
 Entry Wire Line
-	3350 1750 3450 1850
+	3400 1750 3500 1850
 Wire Wire Line
-	3350 1750 2950 1750
+	3400 1750 3000 1750
 Entry Wire Line
-	3350 1850 3450 1950
+	3400 1850 3500 1950
 Wire Wire Line
-	3350 1850 2950 1850
+	3400 1850 3000 1850
 Entry Wire Line
-	3350 1950 3450 2050
+	3400 1950 3500 2050
 Wire Wire Line
-	3350 1950 2950 1950
+	3400 1950 3000 1950
 Entry Wire Line
-	3350 2050 3450 2150
+	3400 2050 3500 2150
 Wire Wire Line
-	3350 2050 2950 2050
+	3400 2050 3000 2050
 Entry Wire Line
-	3350 2150 3450 2250
+	3400 2150 3500 2250
 Wire Wire Line
-	3350 2150 2950 2150
+	3400 2150 3000 2150
 Entry Wire Line
-	3350 2250 3450 2350
+	3400 2250 3500 2350
 Wire Wire Line
-	3350 2250 2950 2250
+	3400 2250 3000 2250
 Entry Wire Line
-	3350 2350 3450 2450
+	3400 2350 3500 2450
 Wire Wire Line
-	3350 2350 2950 2350
+	3400 2350 3000 2350
 Entry Wire Line
-	3350 2450 3450 2550
+	3400 2450 3500 2550
 Wire Wire Line
-	3350 2450 2950 2450
+	3400 2450 3000 2450
 Entry Wire Line
-	3350 2550 3450 2650
+	3400 2550 3500 2650
 Wire Wire Line
-	3350 2550 2950 2550
+	3400 2550 3000 2550
 Entry Wire Line
-	3350 2650 3450 2750
+	3400 2650 3500 2750
 Wire Wire Line
-	3350 2650 2950 2650
+	3400 2650 3000 2650
 Entry Wire Line
-	3350 2750 3450 2850
+	3400 2750 3500 2850
 Wire Wire Line
-	3350 2750 2950 2750
+	3400 2750 3000 2750
 Text GLabel 3550 2950 2    50   Input ~ 0
 d[0..15]
-Text Label 3000 1250 0    50   ~ 0
+Text Label 3050 1250 0    50   ~ 0
 d0
-Text Label 3000 1350 0    50   ~ 0
+Text Label 3050 1350 0    50   ~ 0
 d1
-Text Label 3000 1450 0    50   ~ 0
+Text Label 3050 1450 0    50   ~ 0
 d2
-Text Label 3000 1550 0    50   ~ 0
+Text Label 3050 1550 0    50   ~ 0
 d3
-Text Label 3000 1650 0    50   ~ 0
+Text Label 3050 1650 0    50   ~ 0
 d4
-Text Label 3000 1750 0    50   ~ 0
+Text Label 3050 1750 0    50   ~ 0
 d5
-Text Label 3000 1850 0    50   ~ 0
+Text Label 3050 1850 0    50   ~ 0
 d6
-Text Label 3000 1950 0    50   ~ 0
+Text Label 3050 1950 0    50   ~ 0
 d7
-Text Label 3000 2050 0    50   ~ 0
+Text Label 3050 2050 0    50   ~ 0
 d8
-Text Label 3000 2150 0    50   ~ 0
+Text Label 3050 2150 0    50   ~ 0
 d9
-Text Label 3000 2250 0    50   ~ 0
+Text Label 3050 2250 0    50   ~ 0
 d10
-Text Label 3000 2350 0    50   ~ 0
+Text Label 3050 2350 0    50   ~ 0
 d11
-Text Label 3000 2450 0    50   ~ 0
+Text Label 3050 2450 0    50   ~ 0
 d12
-Text Label 3000 2550 0    50   ~ 0
+Text Label 3050 2550 0    50   ~ 0
 d13
-Text Label 3000 2650 0    50   ~ 0
+Text Label 3050 2650 0    50   ~ 0
 d14
-Text Label 3000 2750 0    50   ~ 0
+Text Label 3050 2750 0    50   ~ 0
 d15
 Wire Bus Line
 	1450 2950 1300 2950
@@ -176,37 +174,7 @@ Entry Wire Line
 Wire Wire Line
 	1550 2650 1850 2650
 Text GLabel 1300 2950 0    50   Input ~ 0
-adr[0..14]
-Text Label 1800 1250 2    50   ~ 0
-adr0
-Text Label 1800 1350 2    50   ~ 0
-adr1
-Text Label 1800 1450 2    50   ~ 0
-adr2
-Text Label 1800 1550 2    50   ~ 0
-adr3
-Text Label 1800 1650 2    50   ~ 0
-adr4
-Text Label 1800 1750 2    50   ~ 0
-adr5
-Text Label 1800 1850 2    50   ~ 0
-adr6
-Text Label 1800 1950 2    50   ~ 0
-adr7
-Text Label 1800 2050 2    50   ~ 0
-adr8
-Text Label 1800 2150 2    50   ~ 0
-adr9
-Text Label 1800 2250 2    50   ~ 0
-adr10
-Text Label 1800 2350 2    50   ~ 0
-adr11
-Text Label 1800 2450 2    50   ~ 0
-adr12
-Text Label 1800 2550 2    50   ~ 0
-adr13
-Text Label 1800 2650 2    50   ~ 0
-adr14
+adr[0..15]
 $Comp
 L AS4C512M16D3L:AS4C512M16D3L-12BIN U1
 U 2 1 606775FB
@@ -245,8 +213,6 @@ F 28 "-40°C" H 1750 4250 50  0001 L CNN "temperature range low"
 $EndComp
 Wire Wire Line
 	1550 2750 1850 2750
-Text Label 1800 2750 2    50   ~ 0
-adr15
 Entry Wire Line
 	1450 2850 1550 2750
 Entry Wire Line
@@ -487,7 +453,7 @@ U 1 1 605A0479
 P 7450 4050
 F 0 "C1" H 7542 4096 50  0000 L CNN
 F 1 "100nF" H 7542 4005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 7450 4050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7450 4050 50  0001 C CNN
 F 3 "~" H 7450 4050 50  0001 C CNN
 	1    7450 4050
 	1    0    0    -1  
@@ -498,7 +464,7 @@ U 1 1 605A0A49
 P 7450 4450
 F 0 "C2" H 7542 4496 50  0000 L CNN
 F 1 "100nF" H 7542 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 7450 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7450 4450 50  0001 C CNN
 F 3 "~" H 7450 4450 50  0001 C CNN
 	1    7450 4450
 	1    0    0    -1  
@@ -570,7 +536,7 @@ U 1 1 605F363F
 P 8150 4500
 F 0 "C3" H 8242 4546 50  0000 L CNN
 F 1 "100nF" H 8242 4455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 8150 4500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8150 4500 50  0001 C CNN
 F 3 "~" H 8150 4500 50  0001 C CNN
 	1    8150 4500
 	1    0    0    -1  
@@ -686,7 +652,7 @@ AR Path="/60536DA4/60D3E7CD" Ref="C74"  Part="1"
 AR Path="/60D3E7CD" Ref="C?"  Part="1" 
 F 0 "C74" V 4650 2350 50  0000 L CNN
 F 1 "100nF" V 4550 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 4600 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4600 2300 50  0001 C CNN
 F 3 "~" H 4600 2300 50  0001 C CNN
 	1    4600 2300
 	1    0    0    -1  
@@ -705,7 +671,7 @@ AR Path="/60536DA4/60D3E7D6" Ref="C75"  Part="1"
 AR Path="/60D3E7D6" Ref="C?"  Part="1" 
 F 0 "C75" V 4850 2350 50  0000 L CNN
 F 1 "100nF" V 4750 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 4800 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4800 2300 50  0001 C CNN
 F 3 "~" H 4800 2300 50  0001 C CNN
 	1    4800 2300
 	1    0    0    -1  
@@ -718,7 +684,7 @@ AR Path="/60536DA4/60D3E7DC" Ref="C76"  Part="1"
 AR Path="/60D3E7DC" Ref="C?"  Part="1" 
 F 0 "C76" V 5050 2350 50  0000 L CNN
 F 1 "100nF" V 4950 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 5000 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5000 2300 50  0001 C CNN
 F 3 "~" H 5000 2300 50  0001 C CNN
 	1    5000 2300
 	1    0    0    -1  
@@ -731,7 +697,7 @@ AR Path="/60536DA4/60D3E7E2" Ref="C77"  Part="1"
 AR Path="/60D3E7E2" Ref="C?"  Part="1" 
 F 0 "C77" V 5250 2350 50  0000 L CNN
 F 1 "100nF" V 5150 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 5200 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5200 2300 50  0001 C CNN
 F 3 "~" H 5200 2300 50  0001 C CNN
 	1    5200 2300
 	1    0    0    -1  
@@ -744,7 +710,7 @@ AR Path="/60536DA4/60D3E7E8" Ref="C79"  Part="1"
 AR Path="/60D3E7E8" Ref="C?"  Part="1" 
 F 0 "C79" V 5450 2350 50  0000 L CNN
 F 1 "100nF" V 5350 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 5400 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5400 2300 50  0001 C CNN
 F 3 "~" H 5400 2300 50  0001 C CNN
 	1    5400 2300
 	1    0    0    -1  
@@ -757,7 +723,7 @@ AR Path="/60536DA4/60D3E7EE" Ref="C81"  Part="1"
 AR Path="/60D3E7EE" Ref="C?"  Part="1" 
 F 0 "C81" V 5650 2350 50  0000 L CNN
 F 1 "100nF" V 5550 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 5600 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5600 2300 50  0001 C CNN
 F 3 "~" H 5600 2300 50  0001 C CNN
 	1    5600 2300
 	1    0    0    -1  
@@ -844,7 +810,7 @@ AR Path="/60536DA4/60D48397" Ref="C83"  Part="1"
 AR Path="/60D48397" Ref="C?"  Part="1" 
 F 0 "C83" V 5850 2350 50  0000 L CNN
 F 1 "100nF" V 5750 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 5800 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 2300 50  0001 C CNN
 F 3 "~" H 5800 2300 50  0001 C CNN
 	1    5800 2300
 	1    0    0    -1  
@@ -857,7 +823,7 @@ AR Path="/60536DA4/60D7B4BA" Ref="C85"  Part="1"
 AR Path="/60D7B4BA" Ref="C?"  Part="1" 
 F 0 "C85" V 6050 2350 50  0000 L CNN
 F 1 "100nF" V 5950 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 6000 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6000 2300 50  0001 C CNN
 F 3 "~" H 6000 2300 50  0001 C CNN
 	1    6000 2300
 	1    0    0    -1  
@@ -870,7 +836,7 @@ AR Path="/60536DA4/60D7B4C0" Ref="C87"  Part="1"
 AR Path="/60D7B4C0" Ref="C?"  Part="1" 
 F 0 "C87" V 6250 2350 50  0000 L CNN
 F 1 "100nF" V 6150 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 6200 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6200 2300 50  0001 C CNN
 F 3 "~" H 6200 2300 50  0001 C CNN
 	1    6200 2300
 	1    0    0    -1  
@@ -883,7 +849,7 @@ AR Path="/60536DA4/60D7B4C6" Ref="C89"  Part="1"
 AR Path="/60D7B4C6" Ref="C?"  Part="1" 
 F 0 "C89" V 6450 2350 50  0000 L CNN
 F 1 "100nF" V 6350 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 6400 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6400 2300 50  0001 C CNN
 F 3 "~" H 6400 2300 50  0001 C CNN
 	1    6400 2300
 	1    0    0    -1  
@@ -896,7 +862,7 @@ AR Path="/60536DA4/60D7B4CC" Ref="C90"  Part="1"
 AR Path="/60D7B4CC" Ref="C?"  Part="1" 
 F 0 "C90" V 6650 2350 50  0000 L CNN
 F 1 "100nF" V 6550 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 6600 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6600 2300 50  0001 C CNN
 F 3 "~" H 6600 2300 50  0001 C CNN
 	1    6600 2300
 	1    0    0    -1  
@@ -909,7 +875,7 @@ AR Path="/60536DA4/60D7B4D2" Ref="C91"  Part="1"
 AR Path="/60D7B4D2" Ref="C?"  Part="1" 
 F 0 "C91" V 6850 2350 50  0000 L CNN
 F 1 "100nF" V 6750 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 6800 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6800 2300 50  0001 C CNN
 F 3 "~" H 6800 2300 50  0001 C CNN
 	1    6800 2300
 	1    0    0    -1  
@@ -944,7 +910,7 @@ AR Path="/60536DA4/60D7B4E4" Ref="C92"  Part="1"
 AR Path="/60D7B4E4" Ref="C?"  Part="1" 
 F 0 "C92" V 7050 2350 50  0000 L CNN
 F 1 "100nF" V 6950 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 7000 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7000 2300 50  0001 C CNN
 F 3 "~" H 7000 2300 50  0001 C CNN
 	1    7000 2300
 	1    0    0    -1  
@@ -1022,7 +988,7 @@ AR Path="/60536DA4/60DC9101" Ref="C78"  Part="1"
 AR Path="/60DC9101" Ref="C?"  Part="1" 
 F 0 "C78" V 5350 3600 50  0000 L CNN
 F 1 "100nF" V 5250 3600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 5300 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5300 3550 50  0001 C CNN
 F 3 "~" H 5300 3550 50  0001 C CNN
 	1    5300 3550
 	1    0    0    -1  
@@ -1035,7 +1001,7 @@ AR Path="/60536DA4/60DC9107" Ref="C80"  Part="1"
 AR Path="/60DC9107" Ref="C?"  Part="1" 
 F 0 "C80" V 5550 3600 50  0000 L CNN
 F 1 "100nF" V 5450 3600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 5500 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5500 3550 50  0001 C CNN
 F 3 "~" H 5500 3550 50  0001 C CNN
 	1    5500 3550
 	1    0    0    -1  
@@ -1048,7 +1014,7 @@ AR Path="/60536DA4/60DC910D" Ref="C82"  Part="1"
 AR Path="/60DC910D" Ref="C?"  Part="1" 
 F 0 "C82" V 5750 3600 50  0000 L CNN
 F 1 "100nF" V 5650 3600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 5700 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5700 3550 50  0001 C CNN
 F 3 "~" H 5700 3550 50  0001 C CNN
 	1    5700 3550
 	1    0    0    -1  
@@ -1061,7 +1027,7 @@ AR Path="/60536DA4/60DC9113" Ref="C84"  Part="1"
 AR Path="/60DC9113" Ref="C?"  Part="1" 
 F 0 "C84" V 5950 3600 50  0000 L CNN
 F 1 "100nF" V 5850 3600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 5900 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5900 3550 50  0001 C CNN
 F 3 "~" H 5900 3550 50  0001 C CNN
 	1    5900 3550
 	1    0    0    -1  
@@ -1074,7 +1040,7 @@ AR Path="/60536DA4/60DC9119" Ref="C86"  Part="1"
 AR Path="/60DC9119" Ref="C?"  Part="1" 
 F 0 "C86" V 6150 3600 50  0000 L CNN
 F 1 "100nF" V 6050 3600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 6100 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6100 3550 50  0001 C CNN
 F 3 "~" H 6100 3550 50  0001 C CNN
 	1    6100 3550
 	1    0    0    -1  
@@ -1109,7 +1075,7 @@ AR Path="/60536DA4/60DC912A" Ref="C88"  Part="1"
 AR Path="/60DC912A" Ref="C?"  Part="1" 
 F 0 "C88" V 6350 3600 50  0000 L CNN
 F 1 "100nF" V 6250 3600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 6300 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6300 3550 50  0001 C CNN
 F 3 "~" H 6300 3550 50  0001 C CNN
 	1    6300 3550
 	1    0    0    -1  
@@ -1228,10 +1194,44 @@ Wire Wire Line
 Connection ~ 5800 3750
 Wire Wire Line
 	5800 3750 5900 3750
+Text Label 1800 2750 2    50   ~ 0
+adr15
+Text Label 1800 2450 2    50   ~ 0
+adr12
+Text Label 1800 2350 2    50   ~ 0
+adr11
+Text Label 1800 2250 2    50   ~ 0
+adr10
+Text Label 1800 2150 2    50   ~ 0
+adr9
+Text Label 1800 1950 2    50   ~ 0
+adr7
+Text Label 1800 1750 2    50   ~ 0
+adr5
+Text Label 1800 1650 2    50   ~ 0
+adr4
+Text Label 1800 1550 2    50   ~ 0
+adr3
+Text Label 1800 1450 2    50   ~ 0
+adr2
+Text Label 1800 1350 2    50   ~ 0
+adr1
+Text Label 1800 1250 2    50   ~ 0
+adr0
+Text Label 1800 2550 2    50   ~ 0
+adr13
+Text Label 1800 2650 2    50   ~ 0
+adr14
+Text Label 1800 1850 2    50   ~ 0
+adr6
+Text Label 1800 2050 2    50   ~ 0
+adr8
+Wire Bus Line
+	3500 2950 3550 2950
 Wire Bus Line
 	1450 3050 1450 3350
 Wire Bus Line
 	1450 1350 1450 2950
 Wire Bus Line
-	3450 1350 3450 2950
+	3500 1350 3500 2950
 $EndSCHEMATC

@@ -26,3 +26,14 @@ MPM-15-5
 - [x] Crystals
 - [x] NMI Pin
 - [x] RESET Pin
+- [ ] Set the board rules. All for 1oz copper. 4 layer board
+    - Drill Min = 0.2mm
+    - Drill Max = 6.3mm
+    - Min via dia = 0.4mm
+    - Min annular ring = 0.13mm
+    - Hole to hole = 0.5mm
+    - Pad to pad = 0.127mm
+    - Via to track = 0.254mm
+    - (Outer layer) Min. trace spacing/width = 0.09mm
+    - (Inner layer) Min. trace spacing/width = 0.127mm
+- [ ] Add an LED
