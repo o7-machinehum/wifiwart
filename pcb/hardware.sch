@@ -401,11 +401,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 4500 2050 5600
 Wire Wire Line
-	2550 4400 2300 4400
-Wire Wire Line
 	1950 4400 1950 5700
-Wire Wire Line
-	2550 4300 2300 4300
 Wire Wire Line
 	1850 4300 1850 5800
 Wire Wire Line
@@ -2304,6 +2300,20 @@ F 3 "" H 7950 4500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7950 4500 7950 4400
+Wire Wire Line
+	2100 4400 1950 4400
+Wire Wire Line
+	2550 4400 2300 4400
+Wire Wire Line
+	2100 4300 1850 4300
+Wire Wire Line
+	2550 4300 2300 4300
+Wire Bus Line
+	3950 3400 3950 3600
+Wire Bus Line
+	2150 1900 2150 3400
+Wire Bus Line
+	4050 1700 4050 3300
 $Comp
 L Device:R_Small_US R?
 U 1 1 606E3432
@@ -2317,8 +2327,6 @@ F 3 "~" H 2200 4300 50  0001 C CNN
 	1    2200 4300
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2100 4300 1850 4300
 $Comp
 L Device:R_Small_US R?
 U 1 1 606E81AC
@@ -2332,12 +2340,4 @@ F 3 "~" H 2200 4400 50  0001 C CNN
 	1    2200 4400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2100 4400 1950 4400
-Wire Bus Line
-	3950 3400 3950 3600
-Wire Bus Line
-	2150 1900 2150 3400
-Wire Bus Line
-	4050 1700 4050 3300
 $EndSCHEMATC
