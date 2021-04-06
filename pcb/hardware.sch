@@ -111,11 +111,11 @@ Text Label 3700 1800 0    50   ~ 0
 d2
 Text Label 3700 1900 0    50   ~ 0
 d3
-Text Label 3700 2000 0    50   ~ 0
-d4
-Text Label 3700 2100 0    50   ~ 0
-d5
 Text Label 3700 2200 0    50   ~ 0
+d4
+Text Label 3700 2000 0    50   ~ 0
+d5
+Text Label 3700 2100 0    50   ~ 0
 d6
 Text Label 3700 2300 0    50   ~ 0
 d7
@@ -129,11 +129,11 @@ Text Label 3700 2700 0    50   ~ 0
 d11
 Text Label 3700 2800 0    50   ~ 0
 d12
-Text Label 3700 2900 0    50   ~ 0
-d13
-Text Label 3700 3000 0    50   ~ 0
-d14
 Text Label 3700 3100 0    50   ~ 0
+d13
+Text Label 3700 2900 0    50   ~ 0
+d14
+Text Label 3700 3000 0    50   ~ 0
 d15
 Wire Bus Line
 	2150 3400 2000 3400
@@ -2308,12 +2308,6 @@ Wire Wire Line
 	2100 4300 1850 4300
 Wire Wire Line
 	2550 4300 2300 4300
-Wire Bus Line
-	3950 3400 3950 3600
-Wire Bus Line
-	2150 1900 2150 3400
-Wire Bus Line
-	4050 1700 4050 3300
 $Comp
 L Device:R_Small_US R?
 U 1 1 606E3432
@@ -2340,4 +2334,10 @@ F 3 "~" H 2200 4400 50  0001 C CNN
 	1    2200 4400
 	0    1    1    0   
 $EndComp
+Wire Bus Line
+	3950 3400 3950 3600
+Wire Bus Line
+	2150 1900 2150 3400
+Wire Bus Line
+	4050 1700 4050 3300
 $EndSCHEMATC

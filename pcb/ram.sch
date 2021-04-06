@@ -93,19 +93,19 @@ Text Label 3000 1850 0    50   ~ 0
 d6
 Text Label 3000 1950 0    50   ~ 0
 d7
-Text Label 3000 2050 0    50   ~ 0
+Text Label 3000 2650 0    50   ~ 0
 d8
-Text Label 3000 2150 0    50   ~ 0
+Text Label 3000 2450 0    50   ~ 0
 d9
 Text Label 3000 2250 0    50   ~ 0
 d10
 Text Label 3000 2350 0    50   ~ 0
 d11
-Text Label 3000 2450 0    50   ~ 0
+Text Label 3000 2050 0    50   ~ 0
 d12
 Text Label 3000 2550 0    50   ~ 0
 d13
-Text Label 3000 2650 0    50   ~ 0
+Text Label 3000 2150 0    50   ~ 0
 d14
 Text Label 3000 2750 0    50   ~ 0
 d15
@@ -236,191 +236,76 @@ dba1
 Text Label 1800 3150 2    50   ~ 0
 dba2
 Wire Wire Line
-	8200 3950 8000 3950
+	8250 3950 8050 3950
 Wire Wire Line
-	8200 2150 8000 2150
+	8250 2150 8050 2150
 Wire Wire Line
-	8000 2150 8000 1800
-Connection ~ 8000 2150
+	8050 2150 8050 1800
+Connection ~ 8050 2150
 Wire Wire Line
-	8000 3950 8000 3850
+	8050 3950 8050 3850
 Wire Wire Line
-	8200 2250 8000 2250
-Connection ~ 8000 2250
+	8250 2250 8050 2250
+Connection ~ 8050 2250
 Wire Wire Line
-	8000 2250 8000 2150
+	8050 2250 8050 2150
 Wire Wire Line
-	8200 2350 8000 2350
-Connection ~ 8000 2350
+	8250 2350 8050 2350
+Connection ~ 8050 2350
 Wire Wire Line
-	8000 2350 8000 2250
+	8050 2350 8050 2250
 Wire Wire Line
-	8200 2450 8000 2450
-Connection ~ 8000 2450
+	8250 2450 8050 2450
+Connection ~ 8050 2450
 Wire Wire Line
-	8000 2450 8000 2350
+	8050 2450 8050 2350
 Wire Wire Line
-	8200 2550 8000 2550
-Connection ~ 8000 2550
+	8250 2550 8050 2550
+Connection ~ 8050 2550
 Wire Wire Line
-	8000 2550 8000 2450
+	8050 2550 8050 2450
 Wire Wire Line
-	8200 2650 8000 2650
-Connection ~ 8000 2650
+	8250 2650 8050 2650
+Connection ~ 8050 2650
 Wire Wire Line
-	8000 2650 8000 2550
+	8050 2650 8050 2550
 Wire Wire Line
-	8200 2750 8000 2750
-Connection ~ 8000 2750
+	8250 2750 8050 2750
+Connection ~ 8050 2750
 Wire Wire Line
-	8000 2750 8000 2650
+	8050 2750 8050 2650
 Wire Wire Line
-	8200 2850 8000 2850
-Connection ~ 8000 2850
+	8250 2850 8050 2850
+Connection ~ 8050 2850
 Wire Wire Line
-	8000 2850 8000 2750
+	8050 2850 8050 2750
 Wire Wire Line
-	8200 2950 8000 2950
-Connection ~ 8000 2950
+	8250 2950 8050 2950
+Connection ~ 8050 2950
 Wire Wire Line
-	8000 2950 8000 2850
+	8050 2950 8050 2850
 Wire Wire Line
-	8200 3150 8000 3150
-Connection ~ 8000 3150
+	8250 3150 8050 3150
+Connection ~ 8050 3150
 Wire Wire Line
-	8000 3150 8000 2950
+	8050 3150 8050 2950
 Wire Wire Line
-	8200 3250 8000 3250
-Connection ~ 8000 3250
+	8250 3250 8050 3250
+Connection ~ 8050 3250
 Wire Wire Line
-	8000 3250 8000 3150
+	8050 3250 8050 3150
 Wire Wire Line
-	8200 3850 8000 3850
-Connection ~ 8000 3850
-Wire Wire Line
-	9650 2150 9900 2150
-Wire Wire Line
-	9900 2150 9900 2250
-Wire Wire Line
-	9650 2250 9900 2250
-Connection ~ 9900 2250
-Wire Wire Line
-	9900 2250 9900 2350
-Wire Wire Line
-	9900 2350 9650 2350
-Connection ~ 9900 2350
-Wire Wire Line
-	9900 2350 9900 2450
-Wire Wire Line
-	9650 2450 9900 2450
-Connection ~ 9900 2450
-Wire Wire Line
-	9900 2450 9900 2550
-Wire Wire Line
-	9650 2550 9900 2550
-Connection ~ 9900 2550
-Wire Wire Line
-	9900 2550 9900 2650
-Wire Wire Line
-	9650 2650 9900 2650
-Connection ~ 9900 2650
-Wire Wire Line
-	9900 2650 9900 2750
-Wire Wire Line
-	9650 2750 9900 2750
-Connection ~ 9900 2750
-Wire Wire Line
-	9900 2750 9900 2850
-Wire Wire Line
-	9900 2850 9650 2850
-Connection ~ 9900 2850
-Wire Wire Line
-	9900 2850 9900 2950
-Wire Wire Line
-	9650 2950 9900 2950
-Connection ~ 9900 2950
-Wire Wire Line
-	9900 2950 9900 3050
-Wire Wire Line
-	9650 3050 9900 3050
-Connection ~ 9900 3050
-Wire Wire Line
-	9900 3050 9900 3150
-Wire Wire Line
-	9650 3150 9900 3150
-Connection ~ 9900 3150
-Wire Wire Line
-	9900 3150 9900 3250
-Wire Wire Line
-	9650 3250 9900 3250
-Connection ~ 9900 3250
-Wire Wire Line
-	9900 3250 9900 3450
-Wire Wire Line
-	9650 3450 9900 3450
-Connection ~ 9900 3450
-Wire Wire Line
-	9900 3450 9900 3550
-Wire Wire Line
-	9650 3550 9900 3550
-Connection ~ 9900 3550
-Wire Wire Line
-	9900 3550 9900 3650
-Wire Wire Line
-	9650 3650 9900 3650
-Connection ~ 9900 3650
-Wire Wire Line
-	9900 3650 9900 3750
-Wire Wire Line
-	9650 3750 9900 3750
-Connection ~ 9900 3750
-Wire Wire Line
-	9900 3750 9900 3850
-Wire Wire Line
-	9650 3850 9900 3850
-Connection ~ 9900 3850
-Wire Wire Line
-	9650 3950 9900 3950
-Wire Wire Line
-	9900 3850 9900 3950
-Connection ~ 9900 3950
-Wire Wire Line
-	9900 3950 9900 4050
-Wire Wire Line
-	9650 4050 9900 4050
-Connection ~ 9900 4050
-Wire Wire Line
-	9900 4050 9900 4150
-Wire Wire Line
-	9650 4150 9900 4150
-Connection ~ 9900 4150
-Wire Wire Line
-	9900 4150 9900 4250
-Wire Wire Line
-	9650 4250 9900 4250
-Connection ~ 9900 4250
-Wire Wire Line
-	9900 4250 9900 4450
+	8250 3850 8050 3850
+Connection ~ 8050 3850
 $Comp
 L power:+1V35 #PWR0101
 U 1 1 6056D972
-P 8000 1800
-F 0 "#PWR0101" H 8000 1650 50  0001 C CNN
-F 1 "+1V35" H 8015 1973 50  0000 C CNN
-F 2 "" H 8000 1800 50  0001 C CNN
-F 3 "" H 8000 1800 50  0001 C CNN
-	1    8000 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 6056FFFE
-P 9900 4450
-F 0 "#PWR0102" H 9900 4200 50  0001 C CNN
-F 1 "GND" H 9905 4277 50  0000 C CNN
-F 2 "" H 9900 4450 50  0001 C CNN
-F 3 "" H 9900 4450 50  0001 C CNN
-	1    9900 4450
+P 8050 1800
+F 0 "#PWR0101" H 8050 1650 50  0001 C CNN
+F 1 "+1V35" H 8065 1973 50  0000 C CNN
+F 2 "" H 8050 1800 50  0001 C CNN
+F 3 "" H 8050 1800 50  0001 C CNN
+	1    8050 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -914,34 +799,34 @@ F 3 "~" H 7000 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 3850 8000 3750
+	8050 3850 8050 3750
 Wire Wire Line
-	8000 3750 8000 3650
-Connection ~ 8000 3750
-Connection ~ 8000 3650
+	8050 3750 8050 3650
+Connection ~ 8050 3750
+Connection ~ 8050 3650
 Wire Wire Line
-	8000 3650 8000 3550
+	8050 3650 8050 3550
 Wire Wire Line
-	8000 3550 8000 3450
-Connection ~ 8000 3550
-Connection ~ 8000 3450
+	8050 3550 8050 3450
+Connection ~ 8050 3550
+Connection ~ 8050 3450
 Wire Wire Line
-	8000 3450 8000 3350
+	8050 3450 8050 3350
 Wire Wire Line
-	8000 3350 8000 3250
-Connection ~ 8000 3350
+	8050 3350 8050 3250
+Connection ~ 8050 3350
 Wire Wire Line
 	7000 1950 7000 2200
 Wire Wire Line
-	8200 3750 8000 3750
+	8250 3750 8050 3750
 Wire Wire Line
-	8200 3650 8000 3650
+	8250 3650 8050 3650
 Wire Wire Line
-	8200 3550 8000 3550
+	8250 3550 8050 3550
 Wire Wire Line
-	8200 3450 8000 3450
+	8250 3450 8050 3450
 Wire Wire Line
-	8200 3350 8000 3350
+	8250 3350 8050 3350
 $Comp
 L AS4C512M16D3L:AS4C512M16D3L-12BIN U1
 U 1 1 6067577A
@@ -1228,6 +1113,121 @@ Wire Bus Line
 	3450 2900 3500 2900
 Text GLabel 3500 2900 2    50   Input ~ 0
 d[0..15]
+$Comp
+L power:GND #PWR0102
+U 1 1 6056FFFE
+P 9800 4450
+F 0 "#PWR0102" H 9800 4200 50  0001 C CNN
+F 1 "GND" H 9805 4277 50  0000 C CNN
+F 2 "" H 9800 4450 50  0001 C CNN
+F 3 "" H 9800 4450 50  0001 C CNN
+	1    9800 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 4250 9800 4450
+Connection ~ 9800 4250
+Wire Wire Line
+	9550 4250 9800 4250
+Wire Wire Line
+	9800 4150 9800 4250
+Connection ~ 9800 4150
+Wire Wire Line
+	9550 4150 9800 4150
+Wire Wire Line
+	9800 4050 9800 4150
+Connection ~ 9800 4050
+Wire Wire Line
+	9550 4050 9800 4050
+Wire Wire Line
+	9800 3950 9800 4050
+Connection ~ 9800 3950
+Wire Wire Line
+	9800 3850 9800 3950
+Wire Wire Line
+	9550 3950 9800 3950
+Connection ~ 9800 3850
+Wire Wire Line
+	9550 3850 9800 3850
+Wire Wire Line
+	9800 3750 9800 3850
+Connection ~ 9800 3750
+Wire Wire Line
+	9550 3750 9800 3750
+Wire Wire Line
+	9800 3650 9800 3750
+Connection ~ 9800 3650
+Wire Wire Line
+	9550 3650 9800 3650
+Wire Wire Line
+	9800 3550 9800 3650
+Connection ~ 9800 3550
+Wire Wire Line
+	9550 3550 9800 3550
+Wire Wire Line
+	9800 3450 9800 3550
+Connection ~ 9800 3450
+Wire Wire Line
+	9550 3450 9800 3450
+Wire Wire Line
+	9800 3250 9800 3450
+Connection ~ 9800 3250
+Wire Wire Line
+	9550 3250 9800 3250
+Wire Wire Line
+	9800 3150 9800 3250
+Connection ~ 9800 3150
+Wire Wire Line
+	9550 3150 9800 3150
+Wire Wire Line
+	9800 3050 9800 3150
+Connection ~ 9800 3050
+Wire Wire Line
+	9550 3050 9800 3050
+Wire Wire Line
+	9800 2950 9800 3050
+Connection ~ 9800 2950
+Wire Wire Line
+	9550 2950 9800 2950
+Wire Wire Line
+	9800 2850 9800 2950
+Connection ~ 9800 2850
+Wire Wire Line
+	9800 2850 9550 2850
+Wire Wire Line
+	9800 2750 9800 2850
+Connection ~ 9800 2750
+Wire Wire Line
+	9550 2750 9800 2750
+Wire Wire Line
+	9800 2650 9800 2750
+Connection ~ 9800 2650
+Wire Wire Line
+	9550 2650 9800 2650
+Wire Wire Line
+	9800 2550 9800 2650
+Connection ~ 9800 2550
+Wire Wire Line
+	9550 2550 9800 2550
+Wire Wire Line
+	9800 2450 9800 2550
+Connection ~ 9800 2450
+Wire Wire Line
+	9550 2450 9800 2450
+Wire Wire Line
+	9800 2350 9800 2450
+Connection ~ 9800 2350
+Wire Wire Line
+	9800 2350 9550 2350
+Wire Wire Line
+	9800 2250 9800 2350
+Connection ~ 9800 2250
+Wire Wire Line
+	9550 2250 9800 2250
+Wire Wire Line
+	9800 2150 9800 2250
+Wire Wire Line
+	9550 2150 9800 2150
 Wire Bus Line
 	1450 3050 1450 3350
 Wire Bus Line
