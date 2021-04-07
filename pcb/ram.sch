@@ -544,8 +544,6 @@ Wire Wire Line
 	4600 2200 4600 1950
 Wire Wire Line
 	4600 1950 4800 1950
-Wire Wire Line
-	5200 1950 5200 1900
 $Comp
 L Device:C_Small C75
 U 1 1 60D3E7D6
@@ -596,19 +594,6 @@ F 1 "100nF" V 5350 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5400 2300 50  0001 C CNN
 F 3 "~" H 5400 2300 50  0001 C CNN
 	1    5400 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C81
-U 1 1 60D3E7EE
-P 5600 2300
-AR Path="/60536DA4/60D3E7EE" Ref="C81"  Part="1" 
-AR Path="/60D3E7EE" Ref="C?"  Part="1" 
-F 0 "C81" V 5650 2350 50  0000 L CNN
-F 1 "100nF" V 5550 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5600 2300 50  0001 C CNN
-F 3 "~" H 5600 2300 50  0001 C CNN
-	1    5600 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -685,19 +670,6 @@ F 3 "" H 5800 2600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5800 2600 5800 2500
-$Comp
-L Device:C_Small C83
-U 1 1 60D48397
-P 5800 2300
-AR Path="/60536DA4/60D48397" Ref="C83"  Part="1" 
-AR Path="/60D48397" Ref="C?"  Part="1" 
-F 0 "C83" V 5850 2350 50  0000 L CNN
-F 1 "100nF" V 5750 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 2300 50  0001 C CNN
-F 3 "~" H 5800 2300 50  0001 C CNN
-	1    5800 2300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C85
 U 1 1 60D7B4BA
@@ -866,27 +838,27 @@ $EndComp
 $Comp
 L Device:C_Small C78
 U 1 1 60DC9101
-P 5300 3550
+P 5600 2300
 AR Path="/60536DA4/60DC9101" Ref="C78"  Part="1" 
 AR Path="/60DC9101" Ref="C?"  Part="1" 
-F 0 "C78" V 5350 3600 50  0000 L CNN
-F 1 "100nF" V 5250 3600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5300 3550 50  0001 C CNN
-F 3 "~" H 5300 3550 50  0001 C CNN
-	1    5300 3550
+F 0 "C78" V 5650 2350 50  0000 L CNN
+F 1 "100nF" V 5550 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5600 2300 50  0001 C CNN
+F 3 "~" H 5600 2300 50  0001 C CNN
+	1    5600 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C80
 U 1 1 60DC9107
-P 5500 3550
+P 5800 2300
 AR Path="/60536DA4/60DC9107" Ref="C80"  Part="1" 
 AR Path="/60DC9107" Ref="C?"  Part="1" 
-F 0 "C80" V 5550 3600 50  0000 L CNN
-F 1 "100nF" V 5450 3600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5500 3550 50  0001 C CNN
-F 3 "~" H 5500 3550 50  0001 C CNN
-	1    5500 3550
+F 0 "C80" V 5850 2350 50  0000 L CNN
+F 1 "100nF" V 5750 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 2300 50  0001 C CNN
+F 3 "~" H 5800 2300 50  0001 C CNN
+	1    5800 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -903,68 +875,24 @@ F 3 "~" H 5700 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C84
-U 1 1 60DC9113
+L Device:C_Small C86
+U 1 1 60DC9119
 P 5900 3550
-AR Path="/60536DA4/60DC9113" Ref="C84"  Part="1" 
-AR Path="/60DC9113" Ref="C?"  Part="1" 
-F 0 "C84" V 5950 3600 50  0000 L CNN
+AR Path="/60536DA4/60DC9119" Ref="C86"  Part="1" 
+AR Path="/60DC9119" Ref="C?"  Part="1" 
+F 0 "C86" V 5950 3600 50  0000 L CNN
 F 1 "100nF" V 5850 3600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5900 3550 50  0001 C CNN
 F 3 "~" H 5900 3550 50  0001 C CNN
 	1    5900 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C86
-U 1 1 60DC9119
-P 6100 3550
-AR Path="/60536DA4/60DC9119" Ref="C86"  Part="1" 
-AR Path="/60DC9119" Ref="C?"  Part="1" 
-F 0 "C86" V 6150 3600 50  0000 L CNN
-F 1 "100nF" V 6050 3600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6100 3550 50  0001 C CNN
-F 3 "~" H 6100 3550 50  0001 C CNN
-	1    6100 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 3450 6100 3200
 Wire Wire Line
 	5900 3450 5900 3200
-Wire Wire Line
-	5700 3450 5700 3200
-Wire Wire Line
-	5500 3450 5500 3200
-Wire Wire Line
-	5300 3450 5300 3200
-Wire Wire Line
-	6300 3750 6300 3650
-Wire Wire Line
-	6100 3650 6100 3750
 Wire Wire Line
 	5900 3650 5900 3750
 Wire Wire Line
 	5700 3650 5700 3750
-Wire Wire Line
-	5500 3650 5500 3750
-Wire Wire Line
-	5300 3650 5300 3750
-$Comp
-L Device:C_Small C88
-U 1 1 60DC912A
-P 6300 3550
-AR Path="/60536DA4/60DC912A" Ref="C88"  Part="1" 
-AR Path="/60DC912A" Ref="C?"  Part="1" 
-F 0 "C88" V 6350 3600 50  0000 L CNN
-F 1 "100nF" V 6250 3600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6300 3550 50  0001 C CNN
-F 3 "~" H 6300 3550 50  0001 C CNN
-	1    6300 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 3200 6300 3450
 $Comp
 L power:+1V35 #PWR065
 U 1 1 60DD4D7C
@@ -1026,19 +954,7 @@ F 3 "" H 5800 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 3200 5500 3200
-Connection ~ 5500 3200
-Wire Wire Line
-	5500 3200 5700 3200
-Connection ~ 5700 3200
-Wire Wire Line
 	5700 3200 5800 3200
-Connection ~ 5900 3200
-Wire Wire Line
-	5900 3200 6100 3200
-Connection ~ 6100 3200
-Wire Wire Line
-	6100 3200 6300 3200
 Wire Wire Line
 	5800 3200 5800 3100
 Connection ~ 5800 3200
@@ -1059,19 +975,7 @@ F 3 "" H 5800 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 3750 5500 3750
-Connection ~ 5500 3750
-Wire Wire Line
-	5500 3750 5700 3750
-Connection ~ 5700 3750
-Wire Wire Line
 	5700 3750 5800 3750
-Connection ~ 5900 3750
-Wire Wire Line
-	5900 3750 6100 3750
-Connection ~ 6100 3750
-Wire Wire Line
-	6100 3750 6300 3750
 Wire Wire Line
 	5800 3750 5800 3850
 Connection ~ 5800 3750
@@ -1228,6 +1132,8 @@ Wire Wire Line
 	9800 2150 9800 2250
 Wire Wire Line
 	9550 2150 9800 2150
+Wire Wire Line
+	5700 3450 5700 3200
 Wire Bus Line
 	1450 3050 1450 3350
 Wire Bus Line
