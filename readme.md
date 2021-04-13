@@ -40,13 +40,27 @@ MPM-15-5
 
 
 ## Ram Length matching
-- [x] CK, !CK
-    - 0.2mm
-- [ ] addr, !WE, !CS, !WE, !RST, BA, ODT, !CKE 
-    - 3mm
-- DQ, DQS, DM (Same byte group)
-    - 1.27mm
-- 
+- [x], 0.2mm: CK, !CK
+    - 
+- [ ], 3mm: adr, !WE, !CS, !WE, !RST, BA, ODT, !CKE, CAS, RAS, 
+    - [x] adr[0] 
+    - [x] adr[1] 
+    - [x] adr[2] 
+    - [x] adr[3] 
+    - [x] adr[4] 
+    - [x] adr[5] 
+    - [x] adr[6] 
+    - [x] adr[7] 
+    - [x] adr[8] 
+    - [x] adr[9] 
+    - [x] adr[10] 
+    - [x] adr[11] 
+    - [x] adr[12] 
+    - [x] adr[13] 
+    - [x] adr[14] 
+    - [x] adr[15] 
+- [ ], 1.27mm: DQ, DQS, DM (Same byte group)
+
 
 21:44:14 machinehum | So from what I've read on length matching ddr3: clocks should be 10mils, address should be 125mils, DQ/DSQ/DM (Same
                     | byte group) should be 50 mils. However I'm unsure about !CAS/!RAS/!CKE/!CS/!WE/!RST/ODT. Does anyone have a doc for
