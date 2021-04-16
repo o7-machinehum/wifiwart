@@ -42,7 +42,7 @@ MPM-15-5
 ## Ram Length matching
 - [x], 0.2mm: CK, !CK
     - 
-- [ ], 3mm: adr, !WE, !CS, !WE, !RST, BA, ODT, !CKE, CAS, RAS, 
+- [ ], 3mm: adr, !WE, !CS, !RST, BA, ODT, !CKE, CAS, RAS
     - [x] adr[0] 
     - [x] adr[1] 
     - [x] adr[2] 
@@ -59,9 +59,43 @@ MPM-15-5
     - [x] adr[13] 
     - [x] adr[14] 
     - [x] adr[15] 
-- [ ], 1.27mm: DQ, DQS, DM (Same byte group)
+    - [x] !WE
+    - [x] !CS
+    - [x] !RST
+    - [x] DBA0
+    - [x] DBA1
+    - [x] DBA2
+    - [x] ODT
+    - [x] !CKE
+    - [x] CAS
+    - [x] RAS
 
 
+- [ ], 1.27mm: Lower data Byte
+    - [ ] DQ0. Could not match. Target 24mm, it's 18mm
+    - [x] DQ1
+    - [ ] DQ2. Could not match. Target 24mm, it's 19mm
+    - [x] DQ3
+    - [x] DQ4
+    - [x] DQ5
+    - [x] DQ6
+    - [x] DQ7
+    - [x] LDQ
+    - [x] !LDQ
+    - [x] LDM
+
+- [ ], 1.27mm: Lower data Byte
+    - [x] DQ8
+    - [x] DQ9
+    - [x] DQ10
+    - [x] DQ11
+    - [x] DQ12
+    - [x] DQ13
+    - [x] DQ14
+    - [x] DQ15
+    - [x] UDQ
+    - [x] !UDQ
+    - [x] UDM
 21:44:14 machinehum | So from what I've read on length matching ddr3: clocks should be 10mils, address should be 125mils, DQ/DSQ/DM (Same
                     | byte group) should be 50 mils. However I'm unsure about !CAS/!RAS/!CKE/!CS/!WE/!RST/ODT. Does anyone have a doc for
                     | the rest of these suckers?
