@@ -135,3 +135,6 @@ MPM-15-5
                    | altium
 0:04:35 azonenberg | for the rest of us, excel is your friend
 
+- [ ] Check 24Mhz crystal pinout
+- [ ] Does 24Mhz crystal need resistor in parallel?
+

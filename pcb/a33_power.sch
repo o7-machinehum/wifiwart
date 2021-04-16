@@ -698,8 +698,6 @@ Wire Wire Line
 	900  3450 900  3350
 Connection ~ 900  3350
 Wire Wire Line
-	900  3350 1150 3350
-Wire Wire Line
 	900  3650 900  3750
 $Comp
 L power:GND #PWR?
@@ -744,22 +742,6 @@ F 3 "~" H 4900 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4700 3350 4700 3200
-$Comp
-L Connector:TestPoint TP4
-U 1 1 60A665AC
-P 1150 3200
-F 0 "TP4" H 1208 3272 50  0000 L CNN
-F 1 "TestPoint" H 1208 3227 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1350 3200 50  0001 C CNN
-F 3 "~" H 1350 3200 50  0001 C CNN
-	1    1150 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 3350 1150 3200
-Connection ~ 1150 3350
-Wire Wire Line
-	1150 3350 1350 3350
 $Comp
 L power:+5V #PWR029
 U 1 1 60A8945F
@@ -1065,8 +1047,6 @@ Wire Wire Line
 	6150 1100 6150 1000
 Connection ~ 6150 1000
 Wire Wire Line
-	6150 1000 6400 1000
-Wire Wire Line
 	6150 1300 6150 1400
 $Comp
 L power:GND #PWR?
@@ -1111,22 +1091,6 @@ F 3 "~" H 10150 850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9950 1000 9950 850 
-$Comp
-L Connector:TestPoint TP7
-U 1 1 60A89518
-P 6400 850
-F 0 "TP7" H 6458 922 50  0000 L CNN
-F 1 "TestPoint" H 6458 877 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6600 850 50  0001 C CNN
-F 3 "~" H 6600 850 50  0001 C CNN
-	1    6400 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 1000 6400 850 
-Connection ~ 6400 1000
-Wire Wire Line
-	6400 1000 6600 1000
 $Comp
 L power:+5V #PWR030
 U 1 1 60C53071
@@ -1430,8 +1394,6 @@ Wire Wire Line
 	6150 3300 6150 3200
 Connection ~ 6150 3200
 Wire Wire Line
-	6150 3200 6400 3200
-Wire Wire Line
 	6150 3500 6150 3600
 $Comp
 L power:GND #PWR?
@@ -1476,22 +1438,6 @@ F 3 "~" H 10150 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9950 3200 9950 3050
-$Comp
-L Connector:TestPoint TP8
-U 1 1 60C5312A
-P 6400 3050
-F 0 "TP8" H 6458 3122 50  0000 L CNN
-F 1 "TestPoint" H 6458 3077 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6600 3050 50  0001 C CNN
-F 3 "~" H 6600 3050 50  0001 C CNN
-	1    6400 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 3200 6400 3050
-Connection ~ 6400 3200
-Wire Wire Line
-	6400 3200 6600 3200
 $Comp
 L power:+3V0 #PWR028
 U 1 1 60C60939
@@ -1933,27 +1879,17 @@ F 3 "" H 2700 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 6650 2400 6650
-Wire Wire Line
 	2700 6650 2700 6550
 Wire Wire Line
 	2200 6750 2700 6750
 Wire Wire Line
 	2700 6750 2700 6850
-$Comp
-L Connector:TestPoint TP19
-U 1 1 60FBE2BB
-P 2400 6550
-F 0 "TP19" H 2458 6622 50  0000 L CNN
-F 1 "TestPoint" H 2458 6577 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2600 6550 50  0001 C CNN
-F 3 "~" H 2600 6550 50  0001 C CNN
-	1    2400 6550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2400 6650 2400 6550
-Connection ~ 2400 6650
+	900  3350 1350 3350
 Wire Wire Line
-	2400 6650 2700 6650
+	6150 3200 6600 3200
+Wire Wire Line
+	6150 1000 6600 1000
+Wire Wire Line
+	2200 6650 2700 6650
 $EndSCHEMATC
