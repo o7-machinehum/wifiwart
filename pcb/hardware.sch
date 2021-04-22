@@ -1440,19 +1440,6 @@ Wire Wire Line
 	6900 3400 6900 3350
 $Comp
 L Device:C_Small C?
-U 1 1 60AEEC72
-P 6700 3750
-AR Path="/60536DA4/60AEEC72" Ref="C?"  Part="1" 
-AR Path="/60AEEC72" Ref="C61"  Part="1" 
-F 0 "C61" V 6750 3800 50  0000 L CNN
-F 1 "100nF" V 6650 3800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6700 3750 50  0001 C CNN
-F 3 "~" H 6700 3750 50  0001 C CNN
-	1    6700 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 60AEEC7E
 P 6900 3750
 AR Path="/60536DA4/60AEEC7E" Ref="C?"  Part="1" 
@@ -1503,8 +1490,6 @@ Wire Wire Line
 Wire Wire Line
 	6900 3650 6900 3400
 Wire Wire Line
-	6700 3650 6700 3400
-Wire Wire Line
 	6500 3850 6500 3950
 Wire Wire Line
 	7300 3850 7300 3950
@@ -1518,8 +1503,6 @@ Wire Wire Line
 Connection ~ 6900 3950
 Wire Wire Line
 	6900 3950 7100 3950
-Wire Wire Line
-	6700 3850 6700 3950
 $Comp
 L power:GND #PWR?
 U 1 1 60AEECB8
@@ -1850,15 +1833,9 @@ Wire Wire Line
 Wire Wire Line
 	5300 5000 5500 5000
 Wire Wire Line
-	6500 3400 6700 3400
+	6500 3400 6900 3400
 Wire Wire Line
-	6500 3950 6700 3950
-Connection ~ 6700 3400
-Wire Wire Line
-	6700 3400 6900 3400
-Connection ~ 6700 3950
-Wire Wire Line
-	6700 3950 6900 3950
+	6500 3950 6900 3950
 Wire Bus Line
 	3950 3400 3950 3600
 Wire Bus Line
