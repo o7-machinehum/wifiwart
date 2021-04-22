@@ -1633,38 +1633,8 @@ F 3 "" H 5500 4400 50  0001 C CNN
 	1    5500 4400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60B9DBD6
-P 6350 4800
-AR Path="/60536DA4/60B9DBD6" Ref="C?"  Part="1" 
-AR Path="/60B9DBD6" Ref="C60"  Part="1" 
-F 0 "C60" V 6400 4850 50  0000 L CNN
-F 1 "100nF" V 6300 4850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6350 4800 50  0001 C CNN
-F 3 "~" H 6350 4800 50  0001 C CNN
-	1    6350 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6350 4700 6350 4450
-Wire Wire Line
-	6350 4450 6550 4450
 Wire Wire Line
 	6950 4450 6950 4400
-$Comp
-L Device:C_Small C?
-U 1 1 60B9DBDF
-P 6550 4800
-AR Path="/60536DA4/60B9DBDF" Ref="C?"  Part="1" 
-AR Path="/60B9DBDF" Ref="C62"  Part="1" 
-F 0 "C62" V 6600 4850 50  0000 L CNN
-F 1 "100nF" V 6500 4850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6550 4800 50  0001 C CNN
-F 3 "~" H 6550 4800 50  0001 C CNN
-	1    6550 4800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 60B9DBE5
@@ -1711,35 +1681,17 @@ P 7350 4800
 AR Path="/60536DA4/60B9DBF7" Ref="C?"  Part="1" 
 AR Path="/60B9DBF7" Ref="C70"  Part="1" 
 F 0 "C70" V 7400 4850 50  0000 L CNN
-F 1 "100nF" V 7300 4850 50  0000 L CNN
+F 1 "22uF" V 7300 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7350 4800 50  0001 C CNN
 F 3 "~" H 7350 4800 50  0001 C CNN
 	1    7350 4800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60B9DBFD
-P 7550 4800
-AR Path="/60536DA4/60B9DBFD" Ref="C?"  Part="1" 
-AR Path="/60B9DBFD" Ref="C72"  Part="1" 
-F 0 "C72" V 7600 4850 50  0000 L CNN
-F 1 "22uF" V 7500 4850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7550 4800 50  0001 C CNN
-F 3 "~" H 7550 4800 50  0001 C CNN
-	1    7550 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6950 4450 7150 4450
-Wire Wire Line
-	7550 4450 7550 4700
 Connection ~ 6950 4450
 Wire Wire Line
 	7350 4700 7350 4450
-Connection ~ 7350 4450
-Wire Wire Line
-	7350 4450 7550 4450
 Wire Wire Line
 	7150 4700 7150 4450
 Connection ~ 7150 4450
@@ -1749,25 +1701,10 @@ Wire Wire Line
 	6950 4700 6950 4450
 Wire Wire Line
 	6750 4700 6750 4450
-Connection ~ 6750 4450
 Wire Wire Line
 	6750 4450 6950 4450
 Wire Wire Line
-	6550 4700 6550 4450
-Connection ~ 6550 4450
-Wire Wire Line
-	6550 4450 6750 4450
-Wire Wire Line
-	6350 4900 6350 5000
-Wire Wire Line
-	6350 5000 6550 5000
-Wire Wire Line
-	7550 5000 7550 4900
-Wire Wire Line
 	7350 4900 7350 5000
-Connection ~ 7350 5000
-Wire Wire Line
-	7350 5000 7550 5000
 Wire Wire Line
 	7150 4900 7150 5000
 Connection ~ 7150 5000
@@ -1780,14 +1717,8 @@ Wire Wire Line
 	6950 5000 7150 5000
 Wire Wire Line
 	6750 4900 6750 5000
-Connection ~ 6750 5000
 Wire Wire Line
 	6750 5000 6950 5000
-Wire Wire Line
-	6550 4900 6550 5000
-Connection ~ 6550 5000
-Wire Wire Line
-	6550 5000 6750 5000
 $Comp
 L power:GND #PWR?
 U 1 1 60B9DC25
