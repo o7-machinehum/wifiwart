@@ -230,7 +230,7 @@ adr13
 Text Label 2500 3200 2    50   ~ 0
 adr14
 $Sheet
-S 5400 6500 1450 1100
+S 4800 6000 1450 1100
 U 6063BE69
 F0 "gpio" 50
 F1 "gpio.sch" 50
@@ -1842,4 +1842,48 @@ Wire Bus Line
 	2150 1900 2150 3400
 Wire Bus Line
 	4050 1700 4050 3300
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60922768
+P 750 7150
+F 0 "H2" H 850 7196 50  0000 L CNN
+F 1 "MountingHole" H 850 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 750 7150 50  0001 C CNN
+F 3 "~" H 750 7150 50  0001 C CNN
+	1    750  7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60924423
+P 750 7350
+F 0 "H3" H 850 7396 50  0000 L CNN
+F 1 "MountingHole" H 850 7305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 750 7350 50  0001 C CNN
+F 3 "~" H 750 7350 50  0001 C CNN
+	1    750  7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60924734
+P 750 7550
+F 0 "H4" H 850 7596 50  0000 L CNN
+F 1 "MountingHole" H 850 7505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 750 7550 50  0001 C CNN
+F 3 "~" H 750 7550 50  0001 C CNN
+	1    750  7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 609248F0
+P 750 6950
+F 0 "H1" H 850 6996 50  0000 L CNN
+F 1 "MountingHole" H 850 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 750 6950 50  0001 C CNN
+F 3 "~" H 750 6950 50  0001 C CNN
+	1    750  6950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

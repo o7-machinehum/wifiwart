@@ -1086,38 +1086,27 @@ Text Label 1600 950  2    50   ~ 0
 UART0_TX
 Text Label 1600 1050 2    50   ~ 0
 UART0_RX
+Wire Wire Line
+	1600 950  1750 950 
+Wire Wire Line
+	1600 1050 1750 1050
 $Comp
-L Connector:Conn_01x03_Male J4
-U 1 1 60978C13
-P 750 1050
-F 0 "J4" H 850 1400 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 850 1300 50  0000 C CNN
-F 2 "" H 750 1050 50  0001 C CNN
-F 3 "~" H 750 1050 50  0001 C CNN
-	1    750  1050
+L Connector_Generic:Conn_02x10_Odd_Even J5
+U 1 1 608A0623
+P 4500 5550
+F 0 "J5" H 4550 6167 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 4550 6076 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 4500 5550 50  0001 C CNN
+F 3 "~" H 4500 5550 50  0001 C CNN
+	1    4500 5550
 	1    0    0    -1  
 $EndComp
+Text Label 4050 5150 2    50   ~ 0
+UART0_TX
+Text Label 4050 5250 2    50   ~ 0
+UART0_RX
 Wire Wire Line
-	950  950  1750 950 
+	4050 5150 4300 5150
 Wire Wire Line
-	950  1050 1750 1050
-Wire Wire Line
-	950  1150 1000 1150
-Wire Wire Line
-	1000 1150 1000 1200
-$Comp
-L power:GND #PWR?
-U 1 1 609DD2CB
-P 1000 1200
-AR Path="/60536DA4/609DD2CB" Ref="#PWR?"  Part="1" 
-AR Path="/609DD2CB" Ref="#PWR?"  Part="1" 
-AR Path="/60A30BFF/609DD2CB" Ref="#PWR?"  Part="1" 
-AR Path="/6063BE69/609DD2CB" Ref="#PWR084"  Part="1" 
-F 0 "#PWR084" H 1000 950 50  0001 C CNN
-F 1 "GND" V 1005 1072 50  0001 R CNN
-F 2 "" H 1000 1200 50  0001 C CNN
-F 3 "" H 1000 1200 50  0001 C CNN
-	1    1000 1200
-	1    0    0    -1  
-$EndComp
+	4300 5250 4050 5250
 $EndSCHEMATC
