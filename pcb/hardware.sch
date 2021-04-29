@@ -1874,16 +1874,16 @@ F 3 "~" H 750 6950 50  0001 C CNN
 	1    750  6950
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	3950 3400 3950 3600
-Wire Bus Line
-	2150 1900 2150 3400
-Wire Bus Line
-	4050 1700 4050 3300
 $Sheet
 S 4800 6000 1450 1100
 U 6063BE69
 F0 "gpio" 50
 F1 "gpio.sch" 50
 $EndSheet
+Wire Bus Line
+	3950 3400 3950 3600
+Wire Bus Line
+	2150 1900 2150 3400
+Wire Bus Line
+	4050 1700 4050 3300
 $EndSCHEMATC
