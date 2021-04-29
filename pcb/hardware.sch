@@ -229,12 +229,6 @@ Text Label 2500 3100 2    50   ~ 0
 adr13
 Text Label 2500 3200 2    50   ~ 0
 adr14
-$Sheet
-S 4800 6000 1450 1100
-U 6063BE69
-F0 "gpio" 50
-F1 "gpio.sch" 50
-$EndSheet
 Entry Wire Line
 	2250 3300 2150 3400
 Wire Wire Line
@@ -1836,12 +1830,6 @@ Wire Wire Line
 	6500 3400 6900 3400
 Wire Wire Line
 	6500 3950 6900 3950
-Wire Bus Line
-	3950 3400 3950 3600
-Wire Bus Line
-	2150 1900 2150 3400
-Wire Bus Line
-	4050 1700 4050 3300
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 60922768
@@ -1886,4 +1874,16 @@ F 3 "~" H 750 6950 50  0001 C CNN
 	1    750  6950
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	3950 3400 3950 3600
+Wire Bus Line
+	2150 1900 2150 3400
+Wire Bus Line
+	4050 1700 4050 3300
+$Sheet
+S 4800 6000 1450 1100
+U 6063BE69
+F0 "gpio" 50
+F1 "gpio.sch" 50
+$EndSheet
 $EndSCHEMATC
