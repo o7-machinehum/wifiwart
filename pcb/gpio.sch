@@ -1101,14 +1101,14 @@ F 3 "~" H 4500 5550 50  0001 C CNN
 	1    4500 5550
 	1    0    0    -1  
 $EndComp
-Text Label 5050 6050 0    50   ~ 0
+Text Label 4950 5650 0    50   ~ 0
 UART0_TX
-Text Label 5050 5950 0    50   ~ 0
+Text Label 4950 5750 0    50   ~ 0
 UART0_RX
 Wire Wire Line
-	5050 6050 4800 6050
+	4950 5750 4800 5750
 Wire Wire Line
-	4800 5950 5050 5950
+	4800 5650 4950 5650
 $Comp
 L power:GND #PWR?
 U 1 1 609FA802
@@ -1143,4 +1143,86 @@ F 3 "" H 5050 5000 50  0001 C CNN
 	1    5050 5000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2650 4150 2800 4150
+Text Label 2800 4150 0    50   ~ 0
+PG6
+Wire Wire Line
+	2650 4350 2800 4350
+Text Label 2800 4350 0    50   ~ 0
+PG8
+Text Label 4100 6050 0    50   ~ 0
+PG6
+Wire Wire Line
+	4100 6050 4300 6050
+Wire Wire Line
+	4800 6050 4950 6050
+Text Label 4950 6050 0    50   ~ 0
+PG8
+Wire Wire Line
+	2650 4250 2800 4250
+Text Label 2800 4250 0    50   ~ 0
+PG7
+Text Label 4100 5950 0    50   ~ 0
+PG7
+Wire Wire Line
+	4100 5950 4300 5950
+Wire Wire Line
+	2650 4450 2800 4450
+Text Label 2800 4450 0    50   ~ 0
+PG9
+Wire Wire Line
+	4800 5950 4950 5950
+Text Label 4950 5950 0    50   ~ 0
+PG9
+Wire Wire Line
+	2650 4550 2800 4550
+Text Label 2800 4550 0    50   ~ 0
+PG10
+Wire Wire Line
+	2650 4650 2800 4650
+Text Label 2800 4650 0    50   ~ 0
+PG11
+Text Label 4100 5850 0    50   ~ 0
+PG10
+Wire Wire Line
+	4800 5850 4950 5850
+Text Label 4950 5850 0    50   ~ 0
+PG11
+Wire Wire Line
+	4300 5850 4100 5850
+$Comp
+L power:GND #PWR?
+U 1 1 609F201D
+P 4150 5750
+AR Path="/60536DA4/609F201D" Ref="#PWR?"  Part="1" 
+AR Path="/609F201D" Ref="#PWR?"  Part="1" 
+AR Path="/60A30BFF/609F201D" Ref="#PWR?"  Part="1" 
+AR Path="/6063BE69/609F201D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4150 5500 50  0001 C CNN
+F 1 "GND" V 4155 5622 50  0001 R CNN
+F 2 "" H 4150 5750 50  0001 C CNN
+F 3 "" H 4150 5750 50  0001 C CNN
+	1    4150 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 5750 4300 5750
+$Comp
+L power:GND #PWR?
+U 1 1 609FB83F
+P 4150 5650
+AR Path="/60536DA4/609FB83F" Ref="#PWR?"  Part="1" 
+AR Path="/609FB83F" Ref="#PWR?"  Part="1" 
+AR Path="/60A30BFF/609FB83F" Ref="#PWR?"  Part="1" 
+AR Path="/6063BE69/609FB83F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4150 5400 50  0001 C CNN
+F 1 "GND" V 4155 5522 50  0001 R CNN
+F 2 "" H 4150 5650 50  0001 C CNN
+F 3 "" H 4150 5650 50  0001 C CNN
+	1    4150 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 5650 4300 5650
 $EndSCHEMATC
