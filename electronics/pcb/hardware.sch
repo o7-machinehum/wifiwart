@@ -941,18 +941,6 @@ Connection ~ 7800 2700
 Wire Wire Line
 	8600 3000 7800 3000
 Wire Wire Line
-	7800 3000 7800 2900
-Wire Wire Line
-	8600 2900 7800 2900
-Connection ~ 7800 2900
-Wire Wire Line
-	7800 2900 7800 2800
-Wire Wire Line
-	8600 2800 7800 2800
-Connection ~ 7800 2800
-Wire Wire Line
-	7800 2800 7800 2700
-Wire Wire Line
 	8600 3300 8450 3300
 Wire Wire Line
 	8600 2600 8000 2600
@@ -1882,10 +1870,25 @@ U 6063BE69
 F0 "gpio" 50
 F1 "gpio.sch" 50
 $EndSheet
+Text Label 8100 2800 0    50   ~ 0
+VCC-PD
+Wire Wire Line
+	7800 2700 7800 3000
+Wire Wire Line
+	8100 2800 8500 2800
+Wire Wire Line
+	8600 2900 8500 2900
+Wire Wire Line
+	8500 2900 8500 2800
 Wire Bus Line
 	3950 3400 3950 3600
 Wire Bus Line
 	2150 1900 2150 3400
 Wire Bus Line
 	4050 1700 4050 3300
+Connection ~ 8500 2800
+Wire Wire Line
+	8500 2800 8600 2800
+Text Label 7250 4450 0    50   ~ 0
+VCC-PD
 $EndSCHEMATC

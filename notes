@@ -135,14 +135,14 @@ MPM-15-5
 
 - [ ] Check 24Mhz crystal pinout
 - [ ] Does 24Mhz crystal need resistor in parallel?
-- [ ] Check U2A 
+- [x] Check U2A 
     - [x] All pins
-    - [ ] DVREF stuff
+    - [x] DVREF stuff
     - [x] All ram connections
-- [ ] Check U2B 
-    - [ ] HPVCC
-    - [ ] All power rails
-        - [ ] Ensure adequate decoupling 
+- [x] Check U2B 
+    - [x] HPVCC
+    - [x] All power rails
+        - [x] Ensure adequate decoupling 
 - [ ] Check U2C 
     - [ ] All pins
     - [ ] SD pins
