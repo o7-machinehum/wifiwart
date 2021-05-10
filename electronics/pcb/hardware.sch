@@ -1880,15 +1880,15 @@ Wire Wire Line
 	8600 2900 8500 2900
 Wire Wire Line
 	8500 2900 8500 2800
+Connection ~ 8500 2800
+Wire Wire Line
+	8500 2800 8600 2800
+Text Label 7250 4450 0    50   ~ 0
+VCC-PD
 Wire Bus Line
 	3950 3400 3950 3600
 Wire Bus Line
 	2150 1900 2150 3400
 Wire Bus Line
 	4050 1700 4050 3300
-Connection ~ 8500 2800
-Wire Wire Line
-	8500 2800 8600 2800
-Text Label 7250 4450 0    50   ~ 0
-VCC-PD
 $EndSCHEMATC

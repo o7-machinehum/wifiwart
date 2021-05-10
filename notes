@@ -101,8 +101,8 @@ MPM-15-5
                    | altium
 0:04:35 azonenberg | for the rest of us, excel is your friend
 
-- [ ] Check 24Mhz crystal pinout
-- [ ] Does 24Mhz crystal need resistor in parallel?
+- [x] Check 24Mhz crystal pinout
+- [x] Does 24Mhz crystal need resistor in parallel?
 - [x] Check U2A 
     - [x] All pins
     - [x] DVREF stuff
@@ -115,12 +115,12 @@ MPM-15-5
     - [x] All pins
     - [x] SD pins
     - [x] UART pins
-- [ ] Check U2D 
+- [x] Check U2D 
     - [x] USB
-    - [ ] Crystals
-    - [ ] VR* stuff
-    - [ ] Resets
-    - [ ] NMI
+    - [x] Crystals
+    - [x] VR* stuff
+    - [x] Resets
+    - [x] NMI
 - [x] Check J1
     - [x] All pins
 - [ ] Check U3, U4, U5, U6
