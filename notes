@@ -123,14 +123,14 @@ MPM-15-5
     - [x] NMI
 - [x] Check J1
     - [x] All pins
-- [ ] Check U3, U4, U5, U6
-    - [ ] All pins
-        - [ ] Read description
-        - [ ] Ensure numbers are correct
-- [ ] Check U7
-    - [ ] All pins
-        - [ ] Read description
-        - [ ] Ensure numbers are correct
+- [x] Check U3, U4, U5, U6
+    - [x] All pins
+        - [x] Read description
+        - [x] Ensure numbers are correct
+- [x] Check U7
+    - [x] All pins
+        - [x] Read description
+        - [x] Ensure numbers are correct
 - [x] U1
     - [x] All pins
         - [x] Read description
