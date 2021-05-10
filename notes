@@ -116,13 +116,13 @@ MPM-15-5
     - [x] SD pins
     - [x] UART pins
 - [ ] Check U2D 
-    - [ ] USB
+    - [x] USB
     - [ ] Crystals
     - [ ] VR* stuff
     - [ ] Resets
     - [ ] NMI
-- [ ] Check J1
-    - [ ] All pins
+- [x] Check J1
+    - [x] All pins
 - [ ] Check U3, U4, U5, U6
     - [ ] All pins
         - [ ] Read description
