@@ -44,22 +44,22 @@ MPM-15-5
     - [x] DQ5
     - [x] DQ6
     - [x] DQ7
-    - [ ] LDQ
-    - [ ] !LDQ
-    - [ ] LDM
+    - [x] LDQ
+    - [x] !LDQ
+    - [x] LDM
 
 - [ ], 1.27mm: Lower data Byte
-    - [] DQ8
-    - [] DQ9
-    - [] DQ10
-    - [] DQ11
-    - [] DQ12
-    - [] DQ13
-    - [] DQ14
-    - [] DQ15
-    - [] UDQ
-    - [] !UDQ
-    - [] UDM
+    - [x] DQ8
+    - [x] DQ9 
+    - [x] DQ10
+    - [x] DQ11
+    - [x] DQ12
+    - [x] DQ13
+    - [x] DQ14
+    - [x] DQ15
+    - [x] UDQ
+    - [x] !UDQ
+    - [x] UDM
 21:44:14 machinehum | So from what I've read on length matching ddr3: clocks should be 10mils, address should be 125mils, DQ/DSQ/DM (Same
                     | byte group) should be 50 mils. However I'm unsure about !CAS/!RAS/!CKE/!CS/!WE/!RST/ODT. Does anyone have a doc for
                     | the rest of these suckers?
