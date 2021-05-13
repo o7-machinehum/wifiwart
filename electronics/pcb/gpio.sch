@@ -71,6 +71,7 @@ F 0 "J1" H 9900 2267 50  0000 C CNN
 F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 9900 2176 50  0000 C CNN
 F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 12000 2150 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 9950 1550 50  0001 C CNN
+F 4 "DM3AT-SF-PEJM5" H 9950 1450 50  0001 C CNN "MPN"
 	1    9950 1450
 	1    0    0    -1  
 $EndComp
@@ -385,7 +386,7 @@ F 0 "Y1" V 6050 5150 50  0000 L CNN
 F 1 "24Mhz" V 6050 4750 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" H 5950 5050 50  0001 C CNN
 F 3 "~" H 5950 5050 50  0001 C CNN
-F 4 "ABM8G-24.000MHZ-18-D2Y-T" H 5950 5050 50  0001 C CNN "Part Number"
+F 4 "ABM8G-24.000MHZ-18-D2Y-T" H 5950 5050 50  0001 C CNN "MPN"
 	1    5950 5050
 	0    -1   -1   0   
 $EndComp
@@ -414,7 +415,7 @@ F 0 "Y2" V 6100 4250 50  0000 L CNN
 F 1 "32.768khz" V 6100 4450 50  0000 L CNN
 F 2 "Abracon:Abracon-ABS05-0-0-MFG" H 6200 4400 50  0001 C CNN
 F 3 "~" H 6200 4400 50  0001 C CNN
-F 4 "ABS05-32.768KHZ-9-T" H 6200 4400 50  0001 C CNN "Part Number"
+F 4 "ABS05-32.768KHZ-9-T" H 6200 4400 50  0001 C CNN "MPN"
 	1    6200 4400
 	0    1    1    0   
 $EndComp
@@ -880,7 +881,7 @@ F 0 "J2" H 5007 3317 50  0000 C CNN
 F 1 "USB_A" H 5007 3226 50  0000 C CNN
 F 2 "Connector_USB:USB_A_Molex_105057_Vertical" H 5100 2800 50  0001 C CNN
 F 3 " ~" H 5100 2800 50  0001 C CNN
-F 4 "1050570001" H 4950 2850 50  0001 C CNN "Part Number"
+F 4 "1050570001" H 4950 2850 50  0001 C CNN "MPN"
 	1    4950 2850
 	1    0    0    -1  
 $EndComp
@@ -892,7 +893,7 @@ F 0 "J3" H 5557 4067 50  0000 C CNN
 F 1 "USB_A" H 5557 3976 50  0000 C CNN
 F 2 "Connector_USB:USB_A_Molex_105057_Vertical" H 5650 3550 50  0001 C CNN
 F 3 " ~" H 5650 3550 50  0001 C CNN
-F 4 "1050570001" H 5500 3600 50  0001 C CNN "Part Number"
+F 4 "1050570001" H 5500 3600 50  0001 C CNN "MPN"
 	1    5500 3600
 	1    0    0    -1  
 $EndComp
