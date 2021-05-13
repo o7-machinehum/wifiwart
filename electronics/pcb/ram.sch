@@ -770,31 +770,6 @@ F 0 "U1" H 8900 2415 50  0000 C CNN
 F 1 "AS4C512M16D3L-12BIN" H 8900 2324 50  0000 C CNN
 F 2 "AS4C512M16D3L:Alliance_Memory-AS4C512M16D3L-12BIN-0-0-IPC_A" H 8150 2550 50  0001 L CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/ddr3/20160614%20-%208GB_DDR3L_AS4C512M16D3L_AS4C1G8MD3L%20revised%20v%202.0%20June%202016.pdf" H 8150 2650 50  0001 L CNN
-F 4 "No" H 8150 2750 50  0001 L CNN "automotive"
-F 5 "IC" H 8150 2850 50  0001 L CNN "category"
-F 6 "Integrated Circuits (ICs)" H 8150 2950 50  0001 L CNN "device class L1"
-F 7 "Memory" H 8150 3050 50  0001 L CNN "device class L2"
-F 8 "RAM" H 8150 3150 50  0001 L CNN "device class L3"
-F 9 "IC DRAM 8G PARALLEL 96FBGA" H 8150 3250 50  0001 L CNN "digikey description"
-F 10 "1450-1272-ND" H 8150 3350 50  0001 L CNN "digikey part number"
-F 11 "800MHz" H 8150 3450 50  0001 L CNN "frequency"
-F 12 "1.2mm" H 8150 3550 50  0001 L CNN "height"
-F 13 "Parallel" H 8150 3650 50  0001 L CNN "interface"
-F 14 "BGA144N80P9X16_1400X900X110" H 8150 3750 50  0001 L CNN "ipc land pattern name"
-F 15 "Yes" H 8150 3850 50  0001 L CNN "lead free"
-F 16 "d1b2570ed0e6ca77" H 8150 3950 50  0001 L CNN "library id"
-F 17 "Alliance Memory" H 8150 4050 50  0001 L CNN "manufacturer"
-F 18 "1.45V" H 8150 4150 50  0001 L CNN "max supply voltage"
-F 19 "8Gbits" H 8150 4250 50  0001 L CNN "memory size"
-F 20 "SDRAM" H 8150 4350 50  0001 L CNN "memory type"
-F 21 "1.283V" H 8150 4450 50  0001 L CNN "min supply voltage"
-F 22 "AS4C512xx Series 8 Gb (512 M x 16) 800 MHz Surface Mount DDR3L SDRAM - FBGA-96" H 8150 4550 50  0001 L CNN "mouser description"
-F 23 "913-512M16D3L12BIN" H 8150 4650 50  0001 L CNN "mouser part number"
-F 24 "FBGA96" H 8150 4750 50  0001 L CNN "package"
-F 25 "Yes" H 8150 4850 50  0001 L CNN "rohs"
-F 26 "0.135mm" H 8150 4950 50  0001 L CNN "standoff height"
-F 27 "+95°C" H 8150 5050 50  0001 L CNN "temperature range high"
-F 28 "-40°C" H 8150 5150 50  0001 L CNN "temperature range low"
 	1    8150 2150
 	1    0    0    -1  
 $EndComp

@@ -23,17 +23,6 @@ F 0 "U2" H 2200 1215 50  0000 C CNN
 F 1 "A33" H 2200 1124 50  0000 C CNN
 F 2 "A33_FP:Allwinner_Technology_Co.,_Ltd.-A33-0" H 1650 1350 50  0001 L CNN
 F 3 "http://dl.linux-sunxi.org/A33/A33_Datasheet_release1.0.pdf" H 1650 1450 50  0001 L CNN
-F 4 "1.8V ~ 3.3V" H 1650 1550 50  0001 L CNN "DC Supply Voltage for I/O"
-F 5 "IC" H 1650 1650 50  0001 L CNN "category"
-F 6 "BGA289N80P17X17_1400X1400X129" H 1650 1750 50  0001 L CNN "ipc land pattern name"
-F 7 "yes" H 1650 1850 50  0001 L CNN "lead free"
-F 8 "f6b937119e25c27a" H 1650 1950 50  0001 L CNN "library id"
-F 9 "Allwinner Technology Co., Ltd." H 1650 2050 50  0001 L CNN "manufacturer"
-F 10 "TFBGA282" H 1650 2150 50  0001 L CNN "package"
-F 11 "yes" H 1650 2250 50  0001 L CNN "rohs"
-F 12 "+125°C" H 1650 2350 50  0001 L CNN "temperature range high"
-F 13 "-40°C" H 1650 2450 50  0001 L CNN "temperature range low"
-F 14 "" H 1650 2550 50  0001 L CNN "voltage"
 	3    1650 950 
 	1    0    0    -1  
 $EndComp
@@ -47,17 +36,6 @@ F 0 "U2" H 8850 3265 50  0000 C CNN
 F 1 "A33" H 8850 3174 50  0000 C CNN
 F 2 "A33_FP:Allwinner_Technology_Co.,_Ltd.-A33-0" H 7950 3400 50  0001 L CNN
 F 3 "http://dl.linux-sunxi.org/A33/A33_Datasheet_release1.0.pdf" H 7950 3500 50  0001 L CNN
-F 4 "1.8V ~ 3.3V" H 7950 3600 50  0001 L CNN "DC Supply Voltage for I/O"
-F 5 "IC" H 7950 3700 50  0001 L CNN "category"
-F 6 "BGA289N80P17X17_1400X1400X129" H 7950 3800 50  0001 L CNN "ipc land pattern name"
-F 7 "yes" H 7950 3900 50  0001 L CNN "lead free"
-F 8 "f6b937119e25c27a" H 7950 4000 50  0001 L CNN "library id"
-F 9 "Allwinner Technology Co., Ltd." H 7950 4100 50  0001 L CNN "manufacturer"
-F 10 "TFBGA282" H 7950 4200 50  0001 L CNN "package"
-F 11 "yes" H 7950 4300 50  0001 L CNN "rohs"
-F 12 "+125°C" H 7950 4400 50  0001 L CNN "temperature range high"
-F 13 "-40°C" H 7950 4500 50  0001 L CNN "temperature range low"
-F 14 "" H 7950 4600 50  0001 L CNN "voltage"
 	4    7950 3000
 	1    0    0    -1  
 $EndComp
