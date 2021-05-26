@@ -2,7 +2,16 @@
 
 The WiFiWart is an open source WiFi penetration device masquerading as a
 regular wall charger. It features a 1.2Ghz Cortex A7 MPU with two WiFi
-chips onboard.
+chips onboard. The electrical, mechanical and software is all completely
+open source. The elec is design in Kicad, hardware in FreeCAD and software
+will be all GNU/Linux based. Eventually there will be three PCBs in this
+repository. Rather than placing redundant information in this file, I would
+encourage readers to check out the blog series listed below for a very in
+depth walk through.
+
+1. [NFF (Non Form Factor)](electronics/nff_comp_pcb)
+2. CompFF (Compute Form Factor)
+3. PowerFF (Power Form Factor
 
 ## Media
 - [Hackaday Feature](https://hackaday.com/2021/05/06/putting-an-ultra-tiny-linux-board-in-a-phone-charger-eventually/)
@@ -45,7 +54,3 @@ chips onboard.
 |   `-- notes
 `-- readme.md
 ```
-
-
-## Generating the BOM
-The projec
