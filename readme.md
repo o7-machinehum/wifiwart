@@ -7,7 +7,7 @@ chips onboard.
 ## Media
 - [Hackaday Feature](https://hackaday.com/2021/05/06/putting-an-ultra-tiny-linux-board-in-a-phone-charger-eventually/)
 - [Blog Post #1](https://machinehum.medium.com/im-putting-a-wifi-router-into-a-wall-charger-part-0-2c1e1a80ccde)
-- [Join us on Discord!](https://machinehum.medium.com/im-putting-a-wifi-router-into-a-wall-charger-part-0-2c1e1a80ccde)
+- [Join us on Discord!](https://discord.gg/SpjdEMhK)
 
 ## Repository Structure.
 ``` bash
