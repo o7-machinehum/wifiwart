@@ -10,7 +10,7 @@ repository. Rather than placing redundant information in this file, I would
 encourage readers to check out the blog series listed below for a very in
 depth walk through.
 
-1. [NFF (Non Form Factor)](electronics/nff_comp_pcb)
+1. [NFF (Non Form Factor)](electronics/nff_pcb)
 2. CompFF (Compute Form Factor)
 3. PowerFF (Power Form Factor
 
