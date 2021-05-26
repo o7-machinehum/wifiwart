@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Wifi Ward - FF Power Board"
+Title "Wifi Wart - FF Power Board"
 Date ""
 Rev "R0.1"
 Comp "Interrupt Labs"
@@ -1904,30 +1904,30 @@ Text Notes 2800 2200 0    79   ~ 0
 $Comp
 L Connector:Conn_01x01_Female J1
 U 1 1 60C35847
-P 1800 1600
-F 0 "J1" H 1692 1467 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 1692 1466 50  0001 C CNN
-F 2 "" H 1800 1600 50  0001 C CNN
-F 3 "~" H 1800 1600 50  0001 C CNN
-	1    1800 1600
+P 1250 1600
+F 0 "J1" H 1142 1467 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1142 1466 50  0001 C CNN
+F 2 "" H 1250 1600 50  0001 C CNN
+F 3 "~" H 1250 1600 50  0001 C CNN
+	1    1250 1600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2000 1600 2600 1600
+	1450 1600 1600 1600
 $Comp
 L Connector:Conn_01x01_Female J2
 U 1 1 60C45FDE
-P 1800 2000
-F 0 "J2" H 1692 1867 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 1692 1866 50  0001 C CNN
-F 2 "" H 1800 2000 50  0001 C CNN
-F 3 "~" H 1800 2000 50  0001 C CNN
-	1    1800 2000
+P 1250 2000
+F 0 "J2" H 1142 1867 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1142 1866 50  0001 C CNN
+F 2 "" H 1250 2000 50  0001 C CNN
+F 3 "~" H 1250 2000 50  0001 C CNN
+	1    1250 2000
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2000 2000 2600 2000
-Text Notes 1300 1850 0    79   ~ 0
+	1450 2000 2200 2000
+Text Notes 750  1850 0    79   ~ 0
 120VAC
 $Comp
 L Device:D D1
@@ -2057,4 +2057,38 @@ Wire Wire Line
 Connection ~ 5000 1050
 Wire Wire Line
 	5000 1050 5350 1050
+$Comp
+L Device:Fuse F1
+U 1 1 60B49BE3
+P 1750 1600
+F 0 "F1" V 1553 1600 50  0000 C CNN
+F 1 "Fuse" V 1644 1600 50  0000 C CNN
+F 2 "" V 1680 1600 50  0001 C CNN
+F 3 "~" H 1750 1600 50  0001 C CNN
+	1    1750 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 1600 2200 1600
+$Comp
+L Device:D_TVS D5
+U 1 1 60B65CEC
+P 2200 1800
+F 0 "D5" V 2154 1880 50  0000 L CNN
+F 1 "D_TVS" V 2245 1880 50  0000 L CNN
+F 2 "" H 2200 1800 50  0001 C CNN
+F 3 "~" H 2200 1800 50  0001 C CNN
+	1    2200 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 1650 2200 1600
+Connection ~ 2200 1600
+Wire Wire Line
+	2200 1600 2600 1600
+Wire Wire Line
+	2200 1950 2200 2000
+Connection ~ 2200 2000
+Wire Wire Line
+	2200 2000 2600 2000
 $EndSCHEMATC

@@ -137,8 +137,10 @@ MPM-15-5
 # 5/25 TODO
     - Bringup of NFF Compute R0.1
         - Count inventory
-        - Order crystals, paste and anything else that is missing.
-        - Travel to VHS to solder the bits
+        - Order
+            - crystals
+            - Solder Paste
+            - Current sense resistors
         
     - Design of the FF power board
         - Schematic
@@ -148,13 +150,3 @@ MPM-15-5
     - Design of the FF Compute
     - Design of the Mech
     - Certification
-
-
-
-    
-
-
-
-
-
-
