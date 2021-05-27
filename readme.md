@@ -11,8 +11,8 @@ encourage readers to check out the blog series listed below for a very in
 depth walk through.
 
 1. [NFF (Non Form Factor)](electronics/nff_pcb)
-2. CompFF (Compute Form Factor)
-3. PowerFF (Power Form Factor
+2. [Compute Form Factor](electronics/ff_comp_pcb)
+3. [Power Form Factor](electronics/ff_power_pcb)
 
 ## Media
 - [Hackaday Feature](https://hackaday.com/2021/05/06/putting-an-ultra-tiny-linux-board-in-a-phone-charger-eventually/)
