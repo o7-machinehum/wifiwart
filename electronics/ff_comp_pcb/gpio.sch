@@ -1270,4 +1270,21 @@ F 3 "" H 4750 4350 50  0001 C CNN
 $EndComp
 Text Label 4450 4300 0    50   ~ 0
 RF2
+$Comp
+L power:+5V #PWR?
+U 1 1 614136E4
+P 7150 3000
+AR Path="/614136E4" Ref="#PWR?"  Part="1" 
+AR Path="/6063BE69/614136E4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7150 2850 50  0001 C CNN
+F 1 "+5V" H 7165 3173 50  0000 C CNN
+F 2 "" H 7150 3000 50  0001 C CNN
+F 3 "" H 7150 3000 50  0001 C CNN
+	1    7150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3000 7150 3100
+Wire Wire Line
+	7150 3100 7050 3100
 $EndSCHEMATC
