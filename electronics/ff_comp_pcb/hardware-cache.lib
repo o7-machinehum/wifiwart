@@ -511,6 +511,20 @@ X Shield 5 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Antenna_Dipole
+#
+DEF Device_Antenna_Dipole AE 0 40 N N 1 F N
+F0 "AE" 50 50 50 H V C CNN
+F1 "Device_Antenna_Dipole" 50 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 8 0 1 10 100 -150 100 -100 200 -100 200 -50 -100 -50 -100 -100 0 -100 0 -150 N
+X ~ 1 0 -200 100 U 50 50 1 1 I
+X ~ 2 100 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Device_C_Small
 #
 DEF Device_C_Small C 0 10 N N 1 F N
