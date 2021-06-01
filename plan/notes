@@ -135,18 +135,26 @@ MPM-15-5
         - [x] Ensure numbers are correct
 
 # 5/25 TODO
-    - Bringup of NFF Compute R0.1
-        - Count inventory
-        - Order
-            - crystals
-            - Solder Paste
-            - Current sense resistors
-        
-    - Design of the FF power board
-        - Schematic
-        - Part Selection
-        - Layout
+- [ ] Bringup of NFF Compute R0.1
+    - [ ]Count inventory
+    - [ ]Order
+        - [ ] crystals
+        - [ ] Solder Paste
+        - [ ] Current sense resistors
+    
+- [ ] Design of the FF power board
+    - Schematic
+    - Part Selection
+    - Layout
 
-    - Design of the FF Compute
-    - Design of the Mech
-    - Certification
+- [ ] Design of the FF Compute
+
+- [ ] Design of the Mech
+    - Questions for Derky
+        - [ ] Expand board slot by?
+        - [ ] Ask derky about USB hole
+
+- [ ] Certification ?
+
+# 5/31 TODO
+
