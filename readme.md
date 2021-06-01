@@ -55,3 +55,6 @@ depth walk through.
 |   `-- notes
 `-- readme.md
 ```
+
+# FF Board information
+60mm x 37mm
