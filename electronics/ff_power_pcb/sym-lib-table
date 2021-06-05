@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name TI)(type Legacy)(uri ${KIPRJMOD}/ti/ti.lib)(options "")(descr ""))
+  (lib (name CUI)(type Legacy)(uri ${KIPRJMOD}/cui/PBO-15C-5.lib)(options "")(descr ""))
 )

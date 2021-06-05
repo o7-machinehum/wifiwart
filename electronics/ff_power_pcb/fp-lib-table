@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name TI)(type KiCad)(uri ${KIPRJMOD}/ti/ti.pretty)(options "")(descr ""))
+  (lib (name CUI)(type KiCad)(uri ${KIPRJMOD}/cui/cui.pretty)(options "")(descr ""))
 )
