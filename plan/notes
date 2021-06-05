@@ -134,18 +134,27 @@ MPM-15-5
         - [x] Read description
         - [x] Ensure numbers are correct
 
-# 5/25 TODO
+# TODO
 - [ ] Bringup of NFF Compute R0.1
-    - [ ]Count inventory
-    - [ ]Order
-        - [ ] crystals
-        - [ ] Solder Paste
-        - [ ] Current sense resistors
-    
+    - Bits that need to come together: 
+        - [ ] LCSC Order
+        - [ ] Coilcraft Samples
+        - [ ] Mouser Order 
+            - [ ] crystals
+            - [ ] Solder Paste
+            - [ ] Current sense resistors
+        - [ ] RAM / A33 (cardboard Box)
+        - [ ] Stencil
+        - [ ] The boards
+        - [ ] Some headers for power
+        - [ ] Standoffs
+        - [ ] Dupont wires
+  
+    - [x]Count inventory
+    - [x]Mouser Order
+          
 - [ ] Design of the FF power board
-    - Schematic
-    - Part Selection
-    - Layout
+    - Determind Power requirements
 
 - [ ] Design of the FF Compute
 
@@ -153,8 +162,11 @@ MPM-15-5
     - Questions for Derky
         - [ ] Expand board slot by?
         - [ ] Ask derky about USB hole
+        - [ ] Overmoulding the plugs
+        - [ ] Fixing the lid to the case
+    - [ ] Draw the antennas
 
 - [ ] Certification ?
 
-# 5/31 TODO
-
+- Decent looking AC/DC Converters.
+    https://www.mouser.ca/datasheet/2/670/pbo_15c-1917874.pdf
