@@ -274,7 +274,7 @@
       (net 39 "Net-(L5-Pad2)"))
     (pad 1 thru_hole circle (at -2.5 0) (size 1.5 1.5) (drill 0.75) (layers *.Cu *.Mask)
       (net 33 "Net-(C1-Pad1)"))
-    (model ${KIPRJMOD}/Bourns/rlb9012.stp
+    (model ${KIPRJMOD}/Bourns/rlb9012_short.stp
       (offset (xyz 0 0 10.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -45))
