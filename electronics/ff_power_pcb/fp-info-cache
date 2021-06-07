@@ -1,4 +1,4 @@
-19001300823803376
+19004547006809009
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -297,6 +297,20 @@ Battery
 Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
 Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
 battery CR-3032 coin cell vertical
+0
+2
+2
+Bourns
+RLB9012
+
+
+0
+2
+2
+Bourns
+SRR1208
+
+
 0
 2
 2
