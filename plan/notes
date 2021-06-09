@@ -155,6 +155,10 @@ MPM-15-5
           
 - [ ] Design of the FF power board
     - Determind Power requirements
+    - Safety Capacitor
+        - A capacitor going from live of neutral to a non-grounded output of a
+        non-grounded exposed mteal should be Y1 - The safest class.
+        - C3 should be a safety class Y1.
 
 - [ ] Design of the FF Compute
 
