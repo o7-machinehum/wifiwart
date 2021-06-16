@@ -137,21 +137,30 @@ MPM-15-5
 # TODO
 - [ ] Bringup of NFF Compute R0.1
     - Bits that need to come together: 
-        - [ ] LCSC Order
-        - [ ] Coilcraft Samples
-        - [ ] Mouser Order 
-            - [ ] crystals
-            - [ ] Solder Paste
-            - [ ] Current sense resistors
-        - [ ] RAM / A33 (cardboard Box)
-        - [ ] Stencil
-        - [ ] The boards
-        - [ ] Some headers for power
-        - [ ] Standoffs
-        - [ ] Dupont wires
-  
+        - [x] LCSC Order
+        - [x] Coilcraft Samples
+        - [x] Mouser Order 
+            - [x] crystals
+            - [x] Solder Paste
+            - [x] Current sense resistors
+        - [x] RAM / A33 (cardboard Box)
+        - [x] Stencil
+        - [x] The boards
+        - [x] Some headers for power
+        - [x] Standoffs
+        - [x] Dupont wires
+    
     - [x]Count inventory
     - [x]Mouser Order
+    - Didn't order enough 1k 0402
+    - Didn't order an 450pF
+    - Board 1
+        - All rails working except 1.1V
+        - U6.16 shorted to GND
+    - Board 2
+        - All rails working except 3.3
+        - U3.16 shorted to GND
+    - Increase solder mask in between pins
           
 - [ ] Design of the FF power board
     - Determind Power requirements
@@ -180,3 +189,6 @@ MPM-15-5
 
 - TVS for input
     https://www.digikey.ca/en/products/detail/epcos-tdk-electronics/B72214P2351K101/4931638
+
+
+
