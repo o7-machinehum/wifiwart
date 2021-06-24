@@ -154,13 +154,9 @@ MPM-15-5
     - [x]Mouser Order
     - Didn't order enough 1k 0402
     - Didn't order an 450pF
-    - Board 1
-        - All rails working except 1.1V
-        - U6.16 shorted to GND
-    - Board 2
-        - All rails working except 3.3
-        - U3.16 shorted to GND
-    - Increase solder mask in between pins
+    - Increase solder mask in between pins of TI supplies
+    - 2.5V LDO was incorrect. 
+
           
 - [ ] Design of the FF power board
     - Determind Power requirements
@@ -189,6 +185,38 @@ MPM-15-5
 
 - TVS for input
     https://www.digikey.ca/en/products/detail/epcos-tdk-electronics/B72214P2351K101/4931638
+
+
+Buildroot - Making Embedded Linux easy - http://buildroot.org - Documentation at http://buildroot.org/downloads/manu>>
+12:35:22        --> | machinehum (~machinehu@2604:3d08:937d:9300::2db4) has joined #buildroot
+12:35:22         -- | Topic for #buildroot is "Buildroot - Making Embedded Linux easy - http://buildroot.org -
+                    | Documentation at http://buildroot.org/downloads/manual/manual.html"
+12:35:22         -- | Topic set by ChanServ (services@services.oftc.net) on Tue, 22 Jun 2021 05:29:29
+12:35:22         -- | Channel #buildroot: 63 nicks (1 op, 0 voices, 62 normals)
+12:35:24         -- | Channel created on Wed, 19 May 2021 06:51:01
+12:35:57 machinehum | How would I begin to debug something like this? https://pastebin.com/raw/Jipkxa9t I'm using some
+                    | custom hardware that I designed around the A33-OLinuXino
+12:37:00 machinehum | I've also noticed I can't find initcall.c anywhere is the repository after building, I wanted to
+                    | set the #define DEBUG in it
+13:13:15    kos_tom | machinehum: readelf/objdump to find which function is at 4a002459
+13:16:11        --> | vincent- (~vincent-@cpc87559-seve28-2-0-cust94.13-3.cable.virginm.net) has joined #buildroot
+13:18:33   vincent- | The other day I watched a video about "what is new in Buildroot". Parallel build, package stats,
+                    | CVEs, ... I was really glad to see how much Buildroot has been improved since my old days as a
+                    | contributor. Congratulations to everyone! :-)
+13:28:16 Lightsword | did https://patchwork.ozlabs.org/project/buildroot/patch/20210616201711.1131369-1-james.hilliard
+                    | 1@gmail.com/ need anything else?
+13:28:50   @y_morin | vincent-: Then come back, we have so many big things still to do! ;-)
+13:28:55   @y_morin | Lightsword: Time?
+13:29:12   @y_morin | Lightsword: I meant, more hours in a day...
+13:31:28 Lightsword | y_morin, ok, wasn't sure
+13:42:58   vincent- | y_morin, hehe, well, I did a very small contribution in form of a co-authored patch recently.
+                    | Does that count? :-P
+13:43:38   @y_morin | Definitely! :-)
+13:43:52   vincent- | https://patchwork.ozlabs.org/project/buildroot/patch/20210615140302.2485993-1-hubert.lacote@gmai
+                    | l.com/
+13:46:06   @y_morin | Yeah, I'll try a few low-hanging fruit tonight before heading to bed...
+14:24:57   @y_morin | Lightsword: Applied! ;-)
+14:25:04 machinehum | kos_tom: Thanks
 
 
 
