@@ -1,5 +1,5 @@
 # Wifiwart
-![](electronics/nff_pcb/Renders/hardware4.png)
+![](media/board.jpg)
 
 The WiFiWart is an open source WiFi penetration device masquerading as a
 regular wall charger. It features a 1.2Ghz Cortex A7 MPU with two WiFi
@@ -15,8 +15,9 @@ depth walk through.
 3. [Power Form Factor](electronics/ff_power_pcb)
 
 ## Media
-- [Hackaday Feature](https://hackaday.com/2021/05/06/putting-an-ultra-tiny-linux-board-in-a-phone-charger-eventually/)
-- [Blog Post #1](https://machinehum.medium.com/im-putting-a-wifi-router-into-a-wall-charger-part-0-2c1e1a80ccde)
+- [Blog Post #3](https://machinehum.medium.com/im-putting-a-wifi-router-into-a-wall-charger-part-2-bf04c779c905)
+- [Blog Post #2](https://machinehum.medium.com/im-putting-a-wifi-router-into-a-wall-charger-part-1-882df714bbf3) - [Hackaday Feature](https://hackaday.com/2021/07/03/wifiwart-linux-pentesting-device-gets-first-pcbs/)
+- [Blog Post #1](https://machinehum.medium.com/im-putting-a-wifi-router-into-a-wall-charger-part-0-2c1e1a80ccde) - [Hackaday Feature](https://hackaday.com/2021/05/06/putting-an-ultra-tiny-linux-board-in-a-phone-charger-eventually/)
 - [Join us on Discord!](https://discord.gg/EtZT7mjNuM)
 
 ## Repository Structure.
