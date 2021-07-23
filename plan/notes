@@ -219,4 +219,17 @@ Buildroot - Making Embedded Linux easy - http://buildroot.org - Documentation at
 14:25:04 machinehum | kos_tom: Thanks
 
 
+## Building the OS
+- Kernel defconfig location
+	./arch/arm/configs/sunxi_defconfig
+
+### SD Card issues
+[    1.020669] Waiting for root device /dev/mmcblk0p1...
+[    1.028817] sunxi-mmc 1c0f000.mmc: no support for card's volts
+[    1.034645] mmc0: error -22 whilst initialising SD card
+
+./sd.c:1259:		host->ocr_avail = host->ocr_avail_sd;
+
+Host side driver 
+	-> drivers/mmc/host/sunxi-mmc.c
 
