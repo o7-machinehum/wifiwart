@@ -355,7 +355,7 @@
   )
 
   (module mains_blade:IRL_00 (layer F.Cu) (tedit 61003468) (tstamp 610056AA)
-    (at 143 107.5 90)
+    (at 143 106.440814 90)
     (path /60CFCE80)
     (fp_text reference J2 (at 1.4 -2 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -385,7 +385,7 @@
   )
 
   (module mains_blade:IRL_00 (layer F.Cu) (tedit 61003468) (tstamp 6100569B)
-    (at 143 121.8 90)
+    (at 143 122.254 90)
     (path /60CFC609)
     (fp_text reference J1 (at 1.4 -2 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
