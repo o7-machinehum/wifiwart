@@ -2009,12 +2009,6 @@ F 3 "~" H 700 7550 50  0001 C CNN
 	1    700  7550
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	3950 3400 3950 3600
-Wire Bus Line
-	2150 1900 2150 3400
-Wire Bus Line
-	4050 1700 4050 3300
 $Comp
 L Connector:Conn_01x07_Female J3
 U 1 1 6110DED7
@@ -2026,4 +2020,10 @@ F 3 "~" H 6700 5900 50  0001 C CNN
 	1    6700 5900
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	3950 3400 3950 3600
+Wire Bus Line
+	2150 1900 2150 3400
+Wire Bus Line
+	4050 1700 4050 3300
 $EndSCHEMATC
