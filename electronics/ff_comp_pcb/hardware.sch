@@ -1973,35 +1973,6 @@ Wire Wire Line
 Wire Wire Line
 	6500 6200 5150 6200
 Wire Wire Line
-	6500 6300 6400 6300
-Wire Wire Line
-	6400 6300 6400 6450
-$Comp
-L power:GND #PWR?
-U 1 1 611BFAF5
-P 6400 6450
-AR Path="/60536DA4/611BFAF5" Ref="#PWR?"  Part="1" 
-AR Path="/611BFAF5" Ref="#PWR028"  Part="1" 
-AR Path="/60A30BFF/611BFAF5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR028" H 6400 6200 50  0001 C CNN
-F 1 "GND" V 6405 6322 50  0001 R CNN
-F 2 "" H 6400 6450 50  0001 C CNN
-F 3 "" H 6400 6450 50  0001 C CNN
-	1    6400 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x08_Female J3
-U 1 1 611D7C88
-P 6700 5900
-F 0 "J3" H 6728 5830 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 6728 5785 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6700 5900 50  0001 C CNN
-F 3 "~" H 6700 5900 50  0001 C CNN
-	1    6700 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	6500 6000 5700 6000
 Wire Wire Line
 	5150 6200 5150 5550
@@ -2044,4 +2015,15 @@ Wire Bus Line
 	2150 1900 2150 3400
 Wire Bus Line
 	4050 1700 4050 3300
+$Comp
+L Connector:Conn_01x07_Female J3
+U 1 1 6110DED7
+P 6700 5900
+F 0 "J3" H 6728 5926 50  0000 L CNN
+F 1 "Conn_01x07_Female" H 6728 5835 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 6700 5900 50  0001 C CNN
+F 3 "~" H 6700 5900 50  0001 C CNN
+	1    6700 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
