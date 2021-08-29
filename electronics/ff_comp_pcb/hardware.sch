@@ -1932,17 +1932,6 @@ Wire Wire Line
 Wire Wire Line
 	6500 5600 6450 5600
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 61489B61
-P 700 7550
-F 0 "H1" H 800 7596 50  0000 L CNN
-F 1 "MountingHole" H 800 7505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 700 7550 50  0001 C CNN
-F 3 "~" H 700 7550 50  0001 C CNN
-	1    700  7550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x07_Female J3
 U 1 1 6110DED7
 P 6700 5900

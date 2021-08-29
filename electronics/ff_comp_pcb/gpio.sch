@@ -1570,4 +1570,42 @@ F 4 "SSM3J328R,LF" H 5600 2850 50  0001 C CNN "MPN"
 	1    5600 2850
 	1    0    0    1   
 $EndComp
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 61313B3C
+P 3075 2600
+F 0 "J4" H 3100 2775 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3425 2425 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3075 2600 50  0001 C CNN
+F 3 "~" H 3075 2600 50  0001 C CNN
+	1    3075 2600
+	1    0    0    -1  
+$EndComp
+Text Label 3425 2500 0    50   ~ 0
+UART0_TX
+Text Label 3425 2600 0    50   ~ 0
+UART0_RX
+Wire Wire Line
+	3425 2500 3275 2500
+Wire Wire Line
+	3425 2600 3275 2600
+$Comp
+L power:GND #PWR?
+U 1 1 613332B8
+P 3325 2750
+AR Path="/60536DA4/613332B8" Ref="#PWR?"  Part="1" 
+AR Path="/613332B8" Ref="#PWR?"  Part="1" 
+AR Path="/60A30BFF/613332B8" Ref="#PWR?"  Part="1" 
+AR Path="/6063BE69/613332B8" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 3325 2500 50  0001 C CNN
+F 1 "GND" V 3330 2622 50  0001 R CNN
+F 2 "" H 3325 2750 50  0001 C CNN
+F 3 "" H 3325 2750 50  0001 C CNN
+	1    3325 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 2700 3325 2700
+Wire Wire Line
+	3325 2700 3325 2750
 $EndSCHEMATC
