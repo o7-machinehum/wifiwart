@@ -1,8 +1,3 @@
-"Source:","/home/machinehum/projects/wifiwart/electronics/ff_power_pcb/hardware.sch"
-"Date:","Sat 28 Aug 2021 05:23:17 PM PDT"
-"Tool:","Eeschema 5.1.10-1.fc33"
-"Generator:","/home/machinehum/projects/wifiwart/electronics/ff_power_pcb/generate_bom.py"
-"Component Count:","60"
 "Ref","Qnty","Value","Footprint","Part Number"
 "C1, ","1","0.1uF","Capacitor_SMD:C_1206_3216Metric","C3216X7T2V104M160AA"
 "C2, ","1","10uF","Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm","UVR2W100MHD"
