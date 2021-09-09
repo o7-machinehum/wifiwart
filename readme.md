@@ -10,11 +10,6 @@ repository. Rather than placing redundant information in this file, I would
 encourage readers to check out the blog series listed below for a very in
 depth walk through.
 
-1. [NFF (Non Form Factor)](electronics/nff_pcb)
-2. [Compute Form Factor](electronics/ff_comp_pcb)
-3. [Power Form Factor](electronics/ff_power_pcb)
-
-## Media
 - [Blog Post #3](https://machinehum.medium.com/im-putting-a-wifi-router-into-a-wall-charger-part-2-bf04c779c905)
 - [Blog Post #2](https://machinehum.medium.com/im-putting-a-wifi-router-into-a-wall-charger-part-1-882df714bbf3) - [Hackaday Feature](https://hackaday.com/2021/07/03/wifiwart-linux-pentesting-device-gets-first-pcbs/)
 - [Blog Post #1](https://machinehum.medium.com/im-putting-a-wifi-router-into-a-wall-charger-part-0-2c1e1a80ccde) - [Hackaday Feature](https://hackaday.com/2021/05/06/putting-an-ultra-tiny-linux-board-in-a-phone-charger-eventually/)
