@@ -1,5 +1,5 @@
 # Wifiwart
-![](media/board.jpg)
+![](media/compete/PXL_20211027_170643707_edit.jpg)
 
 The WiFiWart is an open source WiFi penetration device masquerading as a
 regular wall charger. It features a 1.2Ghz Cortex A7 MPU with two WiFi
