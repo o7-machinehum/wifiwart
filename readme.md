@@ -1,5 +1,5 @@
 # Wifiwart
-![](media/board.png)
+![](media/board.jpg)
 ![](media/complete/PXL_20211027_170643707_edit.jpg)
 
 The WiFiWart is an open source WiFi penetration device masquerading as a
