@@ -1,60 +1,18 @@
 # Wifiwart
+The WiFiWart is an open source WiFi penetration device masquerading as a 
+wall charger. It features a 1.2Ghz Cortex A7 MPU with two WiFi
+chips. The electrical, mechanical and software elemenet are all completely
+open source. Check out the blog series!
+
 ## Custom Non Form Factor Board
 ![](media/board.jpg)
 
 ## Final boards
 ![](media/complete/PXL_20211027_170643707_edit.jpg)
 
-The WiFiWart is an open source WiFi penetration device masquerading as a
-regular wall charger. It features a 1.2Ghz Cortex A7 MPU with two WiFi
-chips onboard. The electrical, mechanical and software is all completely
-open source. The elec is design in Kicad, hardware in FreeCAD and software
-will be all GNU/Linux based. Eventually there will be three PCBs in this
-repository. Rather than placing redundant information in this file, I would
-encourage readers to check out the blog series listed below for a very in
-depth walk through.
-
-- [Blog Post #3](https://machinehum.medium.com/im-putting-a-wifi-router-into-a-wall-charger-part-2-bf04c779c905)
-- [Blog Post #2](https://machinehum.medium.com/im-putting-a-wifi-router-into-a-wall-charger-part-1-882df714bbf3) - [Hackaday Feature](https://hackaday.com/2021/07/03/wifiwart-linux-pentesting-device-gets-first-pcbs/)
-- [Blog Post #1](https://machinehum.medium.com/im-putting-a-wifi-router-into-a-wall-charger-part-0-2c1e1a80ccde) - [Hackaday Feature](https://hackaday.com/2021/05/06/putting-an-ultra-tiny-linux-board-in-a-phone-charger-eventually/)
+- [Final Blog Post](https://interruptlabs.ca/2021/10/25/I-put-a-WiFi-router-into-a-phone-charger-Final-Post/)
+- [Blog Post #3](https://interruptlabs.ca/2021/09/22/I'm-not-putting-a-WiFi-router-into-a-phone-charger-Part-3/)
+- [Blog Post #2](https://interruptlabs.ca/2021/07/19/I'm-putting-a-WiFi-router-into-a-wall-charger-Part-2/)
+- [Blog Post #1](https://interruptlabs.ca/2021/06/15/I'm-putting-a-WiFi-router-into-a-wall-charger-Part-1/)
+- [Blog Post #0](https://interruptlabs.ca/2021/04/28/I'm-putting-a-WiFi-router-into-a-wall-charger-Part-0/)
 - [Join us on Discord!](https://discord.gg/EtZT7mjNuM)
-
-## Repository Structure.
-``` bash
-.
-|-- electronics
-|   |-- app_notes
-|   |-- datasheets             # Datasheets of the parts used
-|   |-- nff_comp_pcb           # "Non-Form-Factor" build
-|   |   |-- generate_bom.py    # This is used to generate the bom
-|   |   |-- gpio.sch
-|   |   |-- hardware-cache.lib
-|   |   |-- hardware.kicad_pcb
-|   |   |-- hardware.pro
-|   |   |-- hardware.sch
-|   |   |-- R0.1                # First Revision Build files
-|   |   |-- Renders             # Pics of the board
-|   |   |-- replace.sh          # Don't run this
-|   |   |-- step             
-|   |   |-- sym-lib-table
-|   |   `-- ti
-|   `-- scripts
-|       |-- crystal_caps.m
-|       |-- psu_current.m
-|       `-- psu_resistor.m
-|-- LICENSE
-|-- mech                         # Mechanical Design
-|   |-- case.FCStd
-|   |-- lid.FCStd
-|   |-- prong.FCStd
-|   `-- refs
-|-- notes
-|-- plan
-|   |-- gantt.tex
-|   |-- Makefile
-|   `-- notes
-`-- readme.md
-```
-
-# FF Board information
-60mm x 37mm
